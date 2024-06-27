@@ -1,43 +1,57 @@
 // JSX allows html to be included in js/ts file. No need to tab between files.
 
-// import VectorTileLayer from "react-leaflet-vector-tile-layer";
+// React imports
 import { forwardRef, useEffect, useRef, useState } from "react";
-import Map from "@arcgis/core/Map.js";
-import Basemap from "@arcgis/core/Basemap.js";
-import MapView from "@arcgis/core/views/MapView.js";
-import WMTSLayer from "@arcgis/core/layers/WMTSLayer.js";
-import MapImageLayer from "@arcgis/core/layers/MapImageLayer.js";
-import LOD from "@arcgis/core/layers/support/LOD.js";
-import { LODS } from "./constants";
-import Search from "@arcgis/core/widgets/Search.js";
-import SearchSource from "@arcgis/core/widgets/Search/SearchSource.js"; // to pass in sources
-import LocatorSearchSource from "@arcgis/core/widgets/Search/LocatorSearchSource.js";
-import PictureMarkerSymbol from "@arcgis/core/symbols/PictureMarkerSymbol.js";
-import Extent from "@arcgis/core/geometry/Extent.js";
-import FeatureLayer from "@arcgis/core/layers/FeatureLayer.js";
-import LayerSearchSource from "@arcgis/core/widgets/Search/LayerSearchSource.js";
-import TileLayer from "@arcgis/core/layers/TileLayer.js";
-import BaseTileLayer from "@arcgis/core/layers/BaseTileLayer.js";
-import VectorTileLayer from "@arcgis/core/layers/VectorTileLayer.js";
-import LabelClass from "@arcgis/core/layers/support/LabelClass.js";
-import TextSymbol from "@arcgis/core/symbols/TextSymbol.js";
+
+// Third-party library imports
+// import VectorTileLayer from "react-leaflet-vector-tile-layer";
+
+// ArcGIS core imports
 import Color from "@arcgis/core/Color.js";
+// import Collection from "@arcgis/core/core/Collection.js";
+// import * as reactiveUtils from "@arcgis/core/core/reactiveUtils.js";
+import Extent from "@arcgis/core/geometry/Extent.js";
+// import Basemap from "@arcgis/core/Basemap.js";
+import Map from "@arcgis/core/Map.js";
+import MapView from "@arcgis/core/views/MapView.js";
+
+// ArcGIS layer imports
+// import BaseTileLayer from "@arcgis/core/layers/BaseTileLayer.js";
+import FeatureLayer from "@arcgis/core/layers/FeatureLayer.js";
+import GroupLayer from "@arcgis/core/layers/GroupLayer.js";
+// import LOD from "@arcgis/core/layers/support/LOD.js";
+import LabelClass from "@arcgis/core/layers/support/LabelClass.js";
+import MapImageLayer from "@arcgis/core/layers/MapImageLayer.js";
+import TileLayer from "@arcgis/core/layers/TileLayer.js";
+// import VectorTileLayer from "@arcgis/core/layers/VectorTileLayer.js";
+import WMTSLayer from "@arcgis/core/layers/WMTSLayer.js";
+
+// ArcGIS symbol imports
+import PictureMarkerSymbol from "@arcgis/core/symbols/PictureMarkerSymbol.js";
+import TextSymbol from "@arcgis/core/symbols/TextSymbol.js";
+
+// ArcGIS widget imports
+// import Expand from "@arcgis/core/widgets/Expand.js";
+import LayerList from "@arcgis/core/widgets/LayerList.js";
+// import LayerListItem from "@arcgis/core/widgets/LayerList/ListItem.js";
+// import ListItem from "@arcgis/core/widgets/LayerList/ListItem.js"; // duplicate import, should be removed
+import Search from "@arcgis/core/widgets/Search.js";
+import LocatorSearchSource from "@arcgis/core/widgets/Search/LocatorSearchSource.js";
+// import SearchSource from "@arcgis/core/widgets/Search/SearchSource.js";
+import LayerSearchSource from "@arcgis/core/widgets/Search/LayerSearchSource.js";
+
+// ArcGIS popup content imports
 import TextContent from "@arcgis/core/popup/content/TextContent.js";
-import * as reactiveUtils from "@arcgis/core/core/reactiveUtils.js";
 
-// const streetBaseMap = new Basemap({
-//   baseLayers:[
-//     new TileLayer({
-//       url:"https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer"
-//     })
-//   ]
-// })
+// Local imports
+import { LODS } from "./constants";
 
-function formatContent(event) {
+
+function formatContent(event: { graphic: { attributes: any; }; }) {
   const attributes = event.graphic.attributes;
   let text = "";
   // Only display the attributes if they exist
-  text += attributes.UseType ? `Use: ${attributes.UseType}<br>`:""
+  text += attributes.UseType ? `Use: ${attributes.UseType}<br>` : ""
   text += attributes.SitusAddress ? `<br>Address:<br>${attributes.SitusAddress}<br>` : `Located in: `;
   text += attributes.SitusCity  ? `${attributes.SitusCity}<br>` : ``;
   let textElement = new TextContent({
@@ -45,25 +59,28 @@ function formatContent(event) {
   });
   return [textElement];
 }
-const wmtsBaseMap = new Basemap({
-  baseLayers: [
-    new WMTSLayer({
-      url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
-      activeLayer: {
-        id: "PICT-LARIAC6--LXMv769zxs",
-        tileMatrixSetId: "GoogleMapsCompatible",
-      },
-    }),
-  ],
-});
+
+// const wmtsBaseMap = new Basemap({
+//   baseLayers: [
+//     new WMTSLayer({
+//       url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
+//       activeLayer: {
+//         id: "PICT-LARIAC6--LXMv769zxs",
+//         tileMatrixSetId: "GoogleMapsCompatible",
+//       },
+//     }),
+//   ],
+// });
 
 const streetMap = new MapImageLayer({
-  visible: true,
+  visible: false,
   url: "https://arcgis.gis.lacounty.gov/arcgis/rest/services/LACounty_Dynamic/Street_Labels/MapServer",
 });
 
 const assessorParcelMap = new FeatureLayer({
-  visible: true,
+  visible: false,
+  title: "Assessor parcels",
+  id: "assessor parcels",
   url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer",
     popupTemplate: { 
       title: "{AIN}",
@@ -86,27 +103,37 @@ const assessorParcelMap = new FeatureLayer({
 });
 
 const schoolDistrictMap = new MapImageLayer({
-  visible: true,
+  visible: false,
+  title: "School districts",
+  id: "school districts",
   url: "https://cache.gis.lacounty.gov/arcgis/rest/services/LACounty_Dynamic/Administrative_Boundaries/MapServer/0",
 });
 
 const taxRateMap = new MapImageLayer({
-  visible: true,
+  visible: false,
+  title: "Tax rates",
+  id: "tax rates",
   url: "https://assessor.gis.lacounty.gov/oota/rest/services/MAPPING/Tax_Rate_Area_AMP/MapServer",
 });
 
 const zoningMap = new FeatureLayer({
-  visible: true,
+  visible: false,
+  title: "Zoning",
+  id: "zoning",
   url: "https://arcgis.gis.lacounty.gov/arcgis/rest/services/DRP/GISNET_Public/MapServer/345",
 });
 
 const communitiesMap = new FeatureLayer({
-  visible: true,
+  visible: false,
+  title: "Communities",
+  id: "communities",
   url: "https://arcgis.gis.lacounty.gov/arcgis/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/23",
 });
 
 const supervisorMap = new FeatureLayer({
-  visible: true,
+  visible: false,
+  title: "Supervisorial units",
+  id: "supervisorial units",
   url: "https://arcgis.gis.lacounty.gov/arcgis/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/1",
   labelingInfo: [
     new LabelClass({
@@ -126,90 +153,85 @@ const supervisorMap = new FeatureLayer({
     }),
   ],
 });
+
 const mobileHomeMap = new FeatureLayer({
-  visible: true,
+  visible: false,
+  title: "Mobile homes",
+  id: "mobile homes",
   url: "https://assessor.gis.lacounty.gov/oota/rest/services/MAPPING/MobileHomes_Service_AMP/MapServer",
 });
-// export const createMapView = (url:string,coordinates:number[],mapRef:any) => {
 
+// export const createMapView = (
+//   url: string,
+//   coordinates: number[],
+//   mapRef: any
+// ) => {
 //   const wmtsBaseMap = new Basemap({
 //     baseLayers: [
 //       new WMTSLayer({
-//         url: 'https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts',
+//         url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
 //         activeLayer: {
 //           id: "PICT-LARIAC6--LXMv769zxs",
 //           tileMatrixSetId: "GoogleMapsCompatible",
 //         }
 //       })
-//     ],
+//     ]
 //   });
-
 //   const view = new MapView({
-//     container: mapRef.current, // add via ref
+//     container: mapRef.current,  // added via ref
 //     map: new Map({
 //       basemap: wmtsBaseMap,
 //     }),
 //     center: coordinates,
-//     // //zoom doesn't work because no LOD
+//     // zoom does not work because no LOD
 //     zoom: 11,
 //     constraints: {
-//       lods:LODS,
+//       lods: LODS,
 //     },
 //     spatialReference: {
-//       wkid: 102100, //got it from bg assesor project
-//     },
+//       wkid: 102100 //got it from bg assesor project
+//     }
 //   })
-
-//   //not working
-
-//   const searchWidget = new Search({
-//     view: view,
-//     visible:true
-//   });
-//   view.ui.add(searchWidget, {
-//     position: "top-left",
-//     index: 2,
-//   });
-//   return view;
 // }
+
 type EsriMapProps = {
   url: string;
-  isCheckedStreetLabel: boolean;
   coordinates: number[];
 };
 const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
   // create a ref to element to be used as the map's container
   // const [view,setView] = useState<MapView>()
 
-  //view should be in state
+  // View should be in state
   const [view, setView] = useState<any>(null);
-  const [basemap, setBasemap] = useState<any>(wmtsBaseMap);
-  //later in useEffect()
-  //setView(createMapView(mapRef.current,mapProperties,viewProperties))
+  // later in useEffect()
+  // setView(createMapView(mapRef.current,mapProperties,viewProperties))
   const createMapView = (mapRef: any) => {
     const lods = LODS;
 
+    const map = new Map({
+      basemap: "dark-gray"
+    });
+
     const view = new MapView({
       container: mapRef.current, // add via ref
-      map: new Map({
-        basemap: basemap,
-
-      }),
+      map: map,
       highlightOptions: {
         color: new Color([255, 255, 0, 1]), // bright yellow
         haloOpacity: 0.9,
         fillOpacity: 0.2
       },
       center: coordinates,
-      // //zoom doesn't work because no LOD
+      // Zoom does not work because no LOD
       zoom: 11,                                                                 
       constraints: {
         lods: lods,
       },
       spatialReference: {
-        wkid: 102100, //got it from bg assesor project
+        wkid: 102100, // got it from bg assesor project
       },
     });
+
     const searchWidget = new Search({
       view: view,
       sources: [
@@ -290,9 +312,7 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
       searchAllEnabled: true,
     });
 
-
-    /**formatting popup box */
-
+    /* formatting popup box */
     searchWidget.allSources.on("after-add", ({ item }) => {
       //https://community.esri.com/t5/arcgis-javascript-maps-sdk-questions/how-to-change-the-marker-of-the-search-result/m-p/1088925
       item.resultSymbol = new PictureMarkerSymbol({
@@ -308,58 +328,128 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
       index: 2,
     });
 
+    // Create sublayers for the Base Layer
+    const subLayers = [
+      new MapImageLayer({
+        url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2014/MapServer",
+        id: "aerial 2014",
+        title: "Aerial 2014",
+        visible: false
+      }),
+      new WMTSLayer({
+        url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
+        activeLayer: {
+          id: "PICT-LARIAC5--tF2dpXHbsU",
+          tileMatrixSetId: "GoogleMapsCompatible",
+        },
+        title: "Aerial 2017",
+        visible: false
+      }),
+      new WMTSLayer({
+        url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
+        activeLayer: {
+          id: "PICT-LARIAC5--SxmDvXHvYJ",
+          tileMatrixSetId: "GoogleMapsCompatible",
+        },
+        title: "Aerial 2018",
+        visible: false
+      }),
+      new WMTSLayer({
+        url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
+        activeLayer: {
+          id: "PICT-LARIAC6--LXMv769zxs",
+          tileMatrixSetId: "GoogleMapsCompatible",
+        },
+        title: "Aerial 2022",
+        visible: false
+      }),
+      new TileLayer({
+        url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer",
+        id: "street",
+        title: "Street",
+        visible: true
+      })
+    ];
+
+    // Create the Base Layer with sublayers
+    const baseLayer = new GroupLayer({
+      title: "Base layer",
+      layers: subLayers,
+      visibilityMode: "exclusive"
+    });
+
+    // Create standalone reference layers
+    const referenceLayers = [
+      zoningMap,
+      taxRateMap,
+      supervisorMap,
+      streetMap,
+      schoolDistrictMap,
+      mobileHomeMap,
+      communitiesMap,
+      assessorParcelMap
+    ];
+
+    map.add(baseLayer);
+    map.addMany(referenceLayers);
+
+    // Function to handle base layer selection
+    const handleBaseLayerSelection = (selectedLayerId: string) => {
+      subLayers.forEach(layer => {
+        layer.visible = layer.id === selectedLayerId;
+      });
+    };
+
+    // Create the LayerList with custom actions
+    const layerList = new LayerList({
+      view: view,
+      // selectionMode: "single-persist",
+      // operationalItems: subLayers,
+      multipleSelectionEnabled: false,
+      // listItemCreatedFunction: (event) => {
+      //   const item = event.item;
+
+      //   if (subLayers.some(layer => layer.id === item.layer.id)) {
+      //     item.actionsSections = [
+      //       [{
+      //         title: "Select Base Layer",
+      //         className: "esri-icon-radio-unchecked",
+      //         id: "select-base-layer"
+      //       }]
+      //     ];
+      //   }
+      //   else if (referenceLayers.some(layer => layer.id === item.layer.id)) {
+      //     item.actionsSections = [
+      //       [{
+      //         title: "Select Base Layer",
+      //         className: "",
+      //         id: "select-base-layer"
+      //       }]
+      //     ];
+      //   }
+      // }
+    });
+
+    // Handle actions on LayerList
+    layerList.on("trigger-action", (event) => {
+      const id = event.action.id;
+      const layer = event.item.layer;
+
+      if (id === "select-base-layer") {
+        handleBaseLayerSelection(layer.id);
+      } else if (id === "toggle-reference-layer") {
+        layer.visible = !layer.visible;
+      }
+    });
+
+    view.ui.add(layerList, "top-right");
+
     return view;
   };
-  const [isCheckedStreetLabel, setIsCheckedStreetLabel] = useState(false);
-  const [isCheckedAssessorParcel, setIsCheckedAssessorParcel] = useState(false);
-  const [isCheckedTaxRate, setIsCheckedTaxRate] = useState(false);
-  const [isCheckedCommunitiesMap, setIsCheckedCommunitiesMap] = useState(false);
-  const [isMobileHomeChecked, setIsMobileHomeChecked] = useState(false);
-  const [isSchoolDistrictChecked, setIsSchoolDistrictChecked] = useState(false);
-  const [isZoningChecked, setIsZoningChecked] = useState(false);
-  const [isSupervisorChecked, setIsSupervisorChecked] = useState(false);
   const [coordinates, setCoordinates] = useState([-118.2417, 34.0541]);
-  const [selectedOption, setSelectedOption] = useState("street");
-  // const [map,setMap] = useState()
-  //const [view,setView] =useState(null)
-  // Function to handle checkbox change
-  const handleStreetLabelCheck = () => {
-    setIsCheckedStreetLabel(!isCheckedStreetLabel); // Toggle the checked state
-  };
+  // const [map, setMap] = useState();
+  // const [view, setView] = useState(null);
 
-  const handleAssessorParcelCheck = () => {
-    setIsCheckedAssessorParcel(!isCheckedAssessorParcel);
-  };
-
-  const handleTaxRateCheck = () => {
-    setIsCheckedTaxRate(!isCheckedTaxRate);
-  };
-  const handleCommunityCheck = () => {
-    setIsCheckedCommunitiesMap(!isCheckedCommunitiesMap);
-  };
-
-  const handleMobileHome = () => {
-    setIsMobileHomeChecked(!isMobileHomeChecked);
-  };
-
-  const handleOptionChange = (event) => {
-    setSelectedOption(event.target.value); // Update the selected option
-  };
-  const handleBaseMapChange = (map: any) => {
-    setBasemap(map);
-  };
-
-  const handleSchoolDistrictChange = () => {
-    setIsSchoolDistrictChecked(!isSchoolDistrictChecked);
-  };
-
-  const handleZoningChange = () => {
-    setIsZoningChecked(!isZoningChecked);
-  };
-
-  const handleSupervisorChange = () => {
-    setIsSupervisorChecked(!isSupervisorChecked);
-  };
   // use a side effect to create the map after react has rendered the DOM
   useEffect(
     () => {
@@ -379,334 +469,47 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
 
   useEffect(() => {
     if (!view) {
-      //this was called before setView()
+      // this is called before setView()
       return;
     }
-
-    view.map.basemap = basemap;
+    // view.map.basemap = basemap;
   }, [view]);
 
   useEffect(() => {
     if (!view) {
-      //this was called before setView()
       return;
     }
-
-    if (view.map.basemap) {
-      view.map.basemap.destroy();
-    }
-    if (selectedOption === "street") {
-      const streetBaseMap = new Basemap({
-        baseLayers: [
-          new TileLayer({
-            url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer",
-          }),
-        ],
-      });
-
-      view.map.basemap = streetBaseMap;
-    }
-
-    if (selectedOption === "aerial 2022") {
-      const wmtsBaseMap = new Basemap({
-        baseLayers: [
-          new WMTSLayer({
-            url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
-            activeLayer: {
-              id: "PICT-LARIAC6--LXMv769zxs",
-              tileMatrixSetId: "GoogleMapsCompatible",
-            },
-          }),
-        ],
-      });
-
-      view.map.basemap = wmtsBaseMap;
-    }
-
-    if (selectedOption === "aerial 2018") {
-      const wmtsBaseMap2 = new Basemap({
-        baseLayers: [
-          new WMTSLayer({
-            url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
-            activeLayer: {
-              id: "PICT-LARIAC5--SxmDvXHvYJ",
-              tileMatrixSetId: "GoogleMapsCompatible",
-            },
-          }),
-        ],
-      });
-
-      view.map.basemap = wmtsBaseMap2;
-    }
-
-    if (selectedOption === "aerial 2017") {
-      const wmtsBaseMap = new Basemap({
-        baseLayers: [
-          new WMTSLayer({
-            url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
-            activeLayer: {
-              id: "PICT-LARIAC5--tF2dpXHbsU",
-              tileMatrixSetId: "GoogleMapsCompatible",
-            },
-          }),
-        ],
-      });
-
-      view.map.basemap = wmtsBaseMap;
-    }
-
-    if (selectedOption === "aerial 2014") {
-      const aerial2014 = new Basemap({
-        baseLayers: [
-          new TileLayer({
-            url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2014/MapServer",
-          }),
-        ],
-      });
-
-      view.map.basemap = aerial2014;
-    }
-  }, [view, selectedOption]);
-
-  //add/remove a reference layer
-  useEffect(() => {
-    if (!view) {
-      return;
-    }
-    console.log("reference useEffect ran");
-    if (isCheckedStreetLabel) {
-      view.map.add(streetMap);
-    } else {
-      view.map.remove(streetMap);
-    }
-    if (isCheckedAssessorParcel) {
-      view.map.add(assessorParcelMap);
-    } else {
-      view.map.remove(assessorParcelMap);
-    }
-
-    if (isCheckedTaxRate) {
-      view.map.add(taxRateMap);
-    } else {
-      view.map.remove(taxRateMap);
-    }
-    if (isCheckedCommunitiesMap) {
-      view.map.add(communitiesMap);
-    } else {
-      view.map.remove(communitiesMap);
-    }
-
-    if (isMobileHomeChecked) {
-      view.map.add(mobileHomeMap);
-    } else {
-      view.map.remove(mobileHomeMap);
-    }
-
-    if (isSchoolDistrictChecked) {
-      view.map.add(schoolDistrictMap);
-    } else {
-      view.map.remove(schoolDistrictMap);
-    }
-
-    if (isZoningChecked) {
-      view.map.add(zoningMap);
-    } else {
-      view.map.remove(zoningMap);
-    }
-
-    if (isSupervisorChecked) {
-      view.map.add(supervisorMap);
-    } else {
-      view.map.remove(supervisorMap);
-    }
-  }, [view, isCheckedStreetLabel, isSupervisorChecked, isCheckedAssessorParcel, isCheckedTaxRate, isCheckedCommunitiesMap, isMobileHomeChecked, isSchoolDistrictChecked, isZoningChecked]);
-  //watch or event callbacks
-
-  useEffect(() => {
-    if (!view) {
-      return;
-    }
-
-
-
     // view.on("click", (click) => {
     //   console.log("clear someting",click);
     //   console.log(view.map)
-    //   //need to get the center somehow
+    //   // TODO: get the center
     // });
-  
-
   }, [view]);
 
   if (!ref) return null;
 
   return (
     <>
-      <div>
-        <div>
-          {/* Radio option 1 */}
-          <label>
-            <input
-              type="radio"
-              value="street"
-              checked={selectedOption === "street"}
-              onChange={handleOptionChange}
-            />
-            Street
-          </label>
-          <br />
-          {/* Radio option 2 */}
-          <label>
-            <input
-              type="radio"
-              value="aerial 2022"
-              checked={selectedOption === "aerial 2022"}
-              onChange={handleOptionChange}
-            />
-            Aerial 2022
-          </label>
-          <br />
-          {/* Radio option 3 */}
-          <label>
-            <input
-              type="radio"
-              value="aerial 2018"
-              checked={selectedOption === "aerial 2018"}
-              onChange={handleOptionChange}
-            />
-            Aerial 2018
-          </label>
-          <br />
-
-          {/* Radio option 4 */}
-          <label>
-            <input
-              type="radio"
-              value="aerial 2017"
-              checked={selectedOption === "aerial 2017"}
-              onChange={handleOptionChange}
-            />
-            Aerial 2017
-          </label>
-          <br />
-          {/* Radio option 5 */}
-          <label>
-            <input
-              type="radio"
-              value="aerial 2014"
-              checked={selectedOption === "aerial 2014"}
-              onChange={handleOptionChange}
-            />
-            Aerial 2014
-          </label>
-          <br />
-        </div>
-      </div>
-      <div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isCheckedStreetLabel}
-              onChange={handleStreetLabelCheck}
-            />
-            Street labels
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isCheckedAssessorParcel}
-              onChange={handleAssessorParcelCheck}
-            />
-            Assesor Parcel
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isCheckedTaxRate}
-              onChange={handleTaxRateCheck}
-            />
-            Tax Rate
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isCheckedCommunitiesMap}
-              onChange={handleCommunityCheck}
-            />
-            Communities
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isMobileHomeChecked}
-              onChange={handleMobileHome}
-            />
-            Mobile Home
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isSchoolDistrictChecked}
-              onChange={handleSchoolDistrictChange}
-            />
-            School Districts
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isZoningChecked}
-              onChange={handleZoningChange}
-            />
-            Zoning
-          </label>
-        </div>
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              checked={isSupervisorChecked}
-              onChange={handleSupervisorChange}
-            />
-            Supervisor
-          </label>
-        </div>
-      </div>
       <div style={{ height: 800 }} ref={ref}></div>
     </>
   );
 });
 
 export default function App() {
-  // `export default` makes App() the default export for this package.
-  //   This means that App() can be imported using any alias.
+  // The phrase `export default` makes App() the default export for this package.
+  // This means that App() can be imported using any alias.
 
-  //user can enter address, place , or AIN , then tracks to location
-  //find a way to pass in coordinates
-  // State to track the checked state of the checkbox
+  // User can enter  address, place, or AIN, which finds location
+  // TODO: Find a way to pass in coordinates
+  // TODO: State to track the checked state of the checkbox
 
   const esriRef = useRef();
   return (
     <>
       <div>
         <EsriWithRef
-          url={
-            "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts"
-          }
-          ref={esriRef}
-        />
+          url={"https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts"}
+          ref={esriRef} coordinates={[-118.2417, 34.0541]}        />
       </div>
     </>
   );
