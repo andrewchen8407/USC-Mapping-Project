@@ -4,10 +4,6 @@
   font-size: .9em;
 }
 
-/* .esri-layer-list__child-toggle + .esri-layer-list__item-label > .esri-layer-list__item-toggle {
-  display: none;
-}‍‍‍ */
-
 #navigation{
   background-color: rgb(43, 149, 254) !important;
 }
