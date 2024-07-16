@@ -5,7 +5,7 @@ LA Assessor Portal: Build modular Esri/ArcGIS API independent of Assessor endpoi
 [mappingproject.azurewebsites.net](https://mappingproject.azurewebsites.net/)
 
 ### Work Flow
-We maintain a main branch and a develop branch. The main branch will contain functioning, tested code.  
+The main branch will contain functioning, tested code.  
 Main is considered "live." Only merge develop and main when you are sure the develop branch is functioning and tested.
 
 #### New feature
@@ -17,3 +17,21 @@ Main is considered "live." Only merge develop and main when you are sure the dev
 * Remember:
   * Merge `feature/<featurename>` to `develop` and not directly to `main`.
   * Only push `develop` to `main` if you are certain it is functional and tested.
+
+### Build Project Locally
+The following instruction require a bash/zsh terminal as well as `dotnet` and `npm` commands.
+Consider setting up an environment such as a conda environment to install the necessary commands.
+* Open a terminal.
+* Clone repo to a directory of your choosing on your system.
+  * e.g. `git clone git@github.com:andrewchen8407/USC-Mapping-Project.git`
+* You should now see a `USC-Mapping-Project` directory.
+* Run `cd USC-Mapping-Project`
+* Run the following commands to build the project:
+  * React Build: Install dependencies and React app
+    * `cd Mapping-System`
+    * `npm install`   // installs this package's dependencies.
+    * `npm run dev`   // runs the application using Vite
+* View the website endpoint
+  * Once the web app is running, one of the info line printouts should say:
+    * `Now listening on: http://localhost:<####>` where `<####>` is replaced by a port number.
+  * Open a browser tab and enter the provided localhost URL.
