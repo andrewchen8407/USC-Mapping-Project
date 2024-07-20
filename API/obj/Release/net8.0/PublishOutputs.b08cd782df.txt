@@ -1,0 +1,11 @@
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\API.exe
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\appsettings.Development.json
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\appsettings.json
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\API.dll
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\API.deps.json
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\API.runtimeconfig.json
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\API.pdb
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\Microsoft.OpenApi.dll
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\c273317\OneDrive - County of Los Angeles\Desktop\GitHub\USC-Mapping-Project\API\bin\Publish\Swashbuckle.AspNetCore.SwaggerUI.dll
