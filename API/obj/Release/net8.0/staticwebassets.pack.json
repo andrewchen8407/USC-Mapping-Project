@@ -1,0 +1,2761 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\AGraphicContainer-_9xoDA3d.js",
+      "PackagePath": "staticwebassets\\assets\\AGraphicContainer-_9xoDA3d.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\AGraphicContainer-n6tErHfV.js",
+      "PackagePath": "staticwebassets\\assets\\AGraphicContainer-n6tErHfV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Analysis-NKJmRgr1.js",
+      "PackagePath": "staticwebassets\\assets\\Analysis-NKJmRgr1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Analysis-chzz9IMD.js",
+      "PackagePath": "staticwebassets\\assets\\Analysis-chzz9IMD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\AttachmentInfo-PpW02egX.js",
+      "PackagePath": "staticwebassets\\assets\\AttachmentInfo-PpW02egX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\AttachmentInfo-qCW8Cqpf.js",
+      "PackagePath": "staticwebassets\\assets\\AttachmentInfo-qCW8Cqpf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\AttributeStore-7TGFk758.js",
+      "PackagePath": "staticwebassets\\assets\\AttributeStore-7TGFk758.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\AttributeStore-wupE90iX.js",
+      "PackagePath": "staticwebassets\\assets\\AttributeStore-wupE90iX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BaseDynamicLayerView2D-DmLRCNYf.js",
+      "PackagePath": "staticwebassets\\assets\\BaseDynamicLayerView2D-DmLRCNYf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BaseDynamicLayerView2D-KJ7ho5Hd.js",
+      "PackagePath": "staticwebassets\\assets\\BaseDynamicLayerView2D-KJ7ho5Hd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BidiEngine-8z8MVveq.js",
+      "PackagePath": "staticwebassets\\assets\\BidiEngine-8z8MVveq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BindType-RceNqBi4.js",
+      "PackagePath": "staticwebassets\\assets\\BindType-RceNqBi4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BingMapsLayer--sjxl-Ia.js",
+      "PackagePath": "staticwebassets\\assets\\BingMapsLayer--sjxl-Ia.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BingMapsLayer-p3vGbna6.js",
+      "PackagePath": "staticwebassets\\assets\\BingMapsLayer-p3vGbna6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Bitmap-GKFapQhW.js",
+      "PackagePath": "staticwebassets\\assets\\Bitmap-GKFapQhW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Bitmap-qSOsTrgg.js",
+      "PackagePath": "staticwebassets\\assets\\Bitmap-qSOsTrgg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BitmapContainer-GaYh0dr4.js",
+      "PackagePath": "staticwebassets\\assets\\BitmapContainer-GaYh0dr4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BitmapContainer-_E4MshtO.js",
+      "PackagePath": "staticwebassets\\assets\\BitmapContainer-_E4MshtO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BoundingBox-Biwomhwq.js",
+      "PackagePath": "staticwebassets\\assets\\BoundingBox-Biwomhwq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BoundingBox-eQ2qtLF5.js",
+      "PackagePath": "staticwebassets\\assets\\BoundingBox-eQ2qtLF5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BoundsStore-aRzAL6fJ.js",
+      "PackagePath": "staticwebassets\\assets\\BoundsStore-aRzAL6fJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BoundsStore-hamQA9-w.js",
+      "PackagePath": "staticwebassets\\assets\\BoundsStore-hamQA9-w.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BufferView-0bMn2ILZ.js",
+      "PackagePath": "staticwebassets\\assets\\BufferView-0bMn2ILZ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BufferView-oLiPF_wk.js",
+      "PackagePath": "staticwebassets\\assets\\BufferView-oLiPF_wk.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BuildingSceneLayer-gPMhV7B2.js",
+      "PackagePath": "staticwebassets\\assets\\BuildingSceneLayer-gPMhV7B2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\BuildingSceneLayer-wRXA5xLY.js",
+      "PackagePath": "staticwebassets\\assets\\BuildingSceneLayer-wRXA5xLY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Button-Vw0xHgQr.js",
+      "PackagePath": "staticwebassets\\assets\\Button-Vw0xHgQr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Button-w-omoSBu.js",
+      "PackagePath": "staticwebassets\\assets\\Button-w-omoSBu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CIMResourceManager-8zs6rEbL.js",
+      "PackagePath": "staticwebassets\\assets\\CIMResourceManager-8zs6rEbL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CIMResourceManager-yHBLr3f5.js",
+      "PackagePath": "staticwebassets\\assets\\CIMResourceManager-yHBLr3f5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CIMSymbolHelper-RHHljlJk.js",
+      "PackagePath": "staticwebassets\\assets\\CIMSymbolHelper-RHHljlJk.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CIMSymbolHelper-pcMC0EUc.js",
+      "PackagePath": "staticwebassets\\assets\\CIMSymbolHelper-pcMC0EUc.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CSVLayer-WXLTHU7-.js",
+      "PackagePath": "staticwebassets\\assets\\CSVLayer-WXLTHU7-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CSVLayer-odcGqruJ.js",
+      "PackagePath": "staticwebassets\\assets\\CSVLayer-odcGqruJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CSVSourceWorker-htrvg6cN.js",
+      "PackagePath": "staticwebassets\\assets\\CSVSourceWorker-htrvg6cN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CSVSourceWorker-zq-zGjyD.js",
+      "PackagePath": "staticwebassets\\assets\\CSVSourceWorker-zq-zGjyD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogDynamicGroupLayerView2D-BM5NdTxb.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogDynamicGroupLayerView2D-BM5NdTxb.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogDynamicGroupLayerView2D-h7DCPEyD.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogDynamicGroupLayerView2D-h7DCPEyD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogFootprintLayerView2D-MG7sfa5r.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogFootprintLayerView2D-MG7sfa5r.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogFootprintLayerView2D-cFkMtFbq.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogFootprintLayerView2D-cFkMtFbq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogLayer-HXBlk9JQ.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogLayer-HXBlk9JQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogLayer-_f6dy4N7.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogLayer-_f6dy4N7.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogLayerView2D-QkndrAZx.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogLayerView2D-QkndrAZx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CatalogLayerView2D-Zp0YA1s9.js",
+      "PackagePath": "staticwebassets\\assets\\CatalogLayerView2D-Zp0YA1s9.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\CircularArray-1_thnT0U.js",
+      "PackagePath": "staticwebassets\\assets\\CircularArray-1_thnT0U.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ClassBreaksDefinition-8oZnSLBK.js",
+      "PackagePath": "staticwebassets\\assets\\ClassBreaksDefinition-8oZnSLBK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ClassBreaksDefinition-g6VbzWpj.js",
+      "PackagePath": "staticwebassets\\assets\\ClassBreaksDefinition-g6VbzWpj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ColorSet-UgI7doh0.js",
+      "PackagePath": "staticwebassets\\assets\\ColorSet-UgI7doh0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ColorSet-gH10Jx5g.js",
+      "PackagePath": "staticwebassets\\assets\\ColorSet-gH10Jx5g.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Container-Uufu8Riz.js",
+      "PackagePath": "staticwebassets\\assets\\Container-Uufu8Riz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Container-fiLRYwqM.js",
+      "PackagePath": "staticwebassets\\assets\\Container-fiLRYwqM.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DefaultMaterial_COLOR_GAMMA-IWELPVFM.js",
+      "PackagePath": "staticwebassets\\assets\\DefaultMaterial_COLOR_GAMMA-IWELPVFM.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DefaultMaterial_COLOR_GAMMA-Mj3T_DN-.js",
+      "PackagePath": "staticwebassets\\assets\\DefaultMaterial_COLOR_GAMMA-Mj3T_DN-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DefaultTheme-KFuyvJAA.js",
+      "PackagePath": "staticwebassets\\assets\\DefaultTheme-KFuyvJAA.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DefaultTheme-vU5iPSRs.js",
+      "PackagePath": "staticwebassets\\assets\\DefaultTheme-vU5iPSRs.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DeleteForwardEditsParameters-iUn-CRuQ.js",
+      "PackagePath": "staticwebassets\\assets\\DeleteForwardEditsParameters-iUn-CRuQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DeleteForwardEditsParameters-uzpXNRER.js",
+      "PackagePath": "staticwebassets\\assets\\DeleteForwardEditsParameters-uzpXNRER.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DimensionLayer-0jwEmlVw.js",
+      "PackagePath": "staticwebassets\\assets\\DimensionLayer-0jwEmlVw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DimensionLayer-5iMVfZTG.js",
+      "PackagePath": "staticwebassets\\assets\\DimensionLayer-5iMVfZTG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DoubleArray-E4NBEoUT.js",
+      "PackagePath": "staticwebassets\\assets\\DoubleArray-E4NBEoUT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\DoubleArray-ZCoeZqAE.js",
+      "PackagePath": "staticwebassets\\assets\\DoubleArray-ZCoeZqAE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\EdgeProcessingWorker-8eFcl6bp.js",
+      "PackagePath": "staticwebassets\\assets\\EdgeProcessingWorker-8eFcl6bp.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\EdgeProcessingWorker-Y49cauop.js",
+      "PackagePath": "staticwebassets\\assets\\EdgeProcessingWorker-Y49cauop.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ElevationLayer-e-hEs93G.js",
+      "PackagePath": "staticwebassets\\assets\\ElevationLayer-e-hEs93G.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ElevationLayer-q-GyZy9A.js",
+      "PackagePath": "staticwebassets\\assets\\ElevationLayer-q-GyZy9A.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ElevationQuery-b-0wyjUO.js",
+      "PackagePath": "staticwebassets\\assets\\ElevationQuery-b-0wyjUO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ElevationQuery-xRkhL_Fz.js",
+      "PackagePath": "staticwebassets\\assets\\ElevationQuery-xRkhL_Fz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ElevationSamplerWorker-6lcEGUHO.js",
+      "PackagePath": "staticwebassets\\assets\\ElevationSamplerWorker-6lcEGUHO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ElevationSamplerWorker-q8QZDjMz.js",
+      "PackagePath": "staticwebassets\\assets\\ElevationSamplerWorker-q8QZDjMz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ExportStrategy-G6_C4a6y.js",
+      "PackagePath": "staticwebassets\\assets\\ExportStrategy-G6_C4a6y.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ExportStrategy-XVneJ4TX.js",
+      "PackagePath": "staticwebassets\\assets\\ExportStrategy-XVneJ4TX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ExportWMSImageParameters-i0WSBT-q.js",
+      "PackagePath": "staticwebassets\\assets\\ExportWMSImageParameters-i0WSBT-q.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ExportWMSImageParameters-nujO-cCJ.js",
+      "PackagePath": "staticwebassets\\assets\\ExportWMSImageParameters-nujO-cCJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\External-4MqRfGF8.js",
+      "PackagePath": "staticwebassets\\assets\\External-4MqRfGF8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\External-uN_3dbBj.js",
+      "PackagePath": "staticwebassets\\assets\\External-uN_3dbBj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureCommandQueue-BBD5JbCW.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureCommandQueue-BBD5JbCW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureCommandQueue-CDFSEeQJ.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureCommandQueue-CDFSEeQJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureLayerSource-bSWxh9v4.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureLayerSource-bSWxh9v4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureLayerSource-k-QsAsib.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureLayerSource-k-QsAsib.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureLayerView2D-5rX92EOl.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureLayerView2D-5rX92EOl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureLayerView2D-hoEZ_rYs.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureLayerView2D-hoEZ_rYs.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeaturePipelineWorker-CdtKJVOy.js",
+      "PackagePath": "staticwebassets\\assets\\FeaturePipelineWorker-CdtKJVOy.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeaturePipelineWorker-ZQxuRH3P.js",
+      "PackagePath": "staticwebassets\\assets\\FeaturePipelineWorker-ZQxuRH3P.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureServiceSnappingSourceWorker-wuv1Xs0r.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureServiceSnappingSourceWorker-wuv1Xs0r.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureServiceSnappingSourceWorker-xPDgx_Ic.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureServiceSnappingSourceWorker-xPDgx_Ic.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureStore-FIPzzRoF.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureStore-FIPzzRoF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FeatureStore-PS-RpjE3.js",
+      "PackagePath": "staticwebassets\\assets\\FeatureStore-PS-RpjE3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FloatingArrow-9nbsguB2.js",
+      "PackagePath": "staticwebassets\\assets\\FloatingArrow-9nbsguB2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\FloatingArrow-XI85IoWl.js",
+      "PackagePath": "staticwebassets\\assets\\FloatingArrow-XI85IoWl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoJSONLayer-LrwykH4O.js",
+      "PackagePath": "staticwebassets\\assets\\GeoJSONLayer-LrwykH4O.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoJSONLayer-_BPjYz-g.js",
+      "PackagePath": "staticwebassets\\assets\\GeoJSONLayer-_BPjYz-g.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoJSONSourceWorker-UFTyx48Y.js",
+      "PackagePath": "staticwebassets\\assets\\GeoJSONSourceWorker-UFTyx48Y.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoJSONSourceWorker-ZgEVldo0.js",
+      "PackagePath": "staticwebassets\\assets\\GeoJSONSourceWorker-ZgEVldo0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoRSSLayer-SLXkCby6.js",
+      "PackagePath": "staticwebassets\\assets\\GeoRSSLayer-SLXkCby6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoRSSLayer-eHdxSXZx.js",
+      "PackagePath": "staticwebassets\\assets\\GeoRSSLayer-eHdxSXZx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoRSSLayerView2D-js_sh9EN.js",
+      "PackagePath": "staticwebassets\\assets\\GeoRSSLayerView2D-js_sh9EN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GeoRSSLayerView2D-lMo3wWw4.js",
+      "PackagePath": "staticwebassets\\assets\\GeoRSSLayerView2D-lMo3wWw4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphQueryStreaming-AJlROsGE.js",
+      "PackagePath": "staticwebassets\\assets\\GraphQueryStreaming-AJlROsGE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphQueryStreaming-lRLSZUSA.js",
+      "PackagePath": "staticwebassets\\assets\\GraphQueryStreaming-lRLSZUSA.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicContainer-O3oR3RJq.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicContainer-O3oR3RJq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicContainer-xyID0DIu.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicContainer-xyID0DIu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicsLayer-IXSdHQWq.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicsLayer-IXSdHQWq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicsLayer-SDU2XNkT.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicsLayer-SDU2XNkT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicsLayerView2D-N8IX-YsJ.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicsLayerView2D-N8IX-YsJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicsLayerView2D-PmHaDFUC.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicsLayerView2D-PmHaDFUC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicsView2D-IVfpiyS-.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicsView2D-IVfpiyS-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GraphicsView2D-ZVXQUFRg.js",
+      "PackagePath": "staticwebassets\\assets\\GraphicsView2D-ZVXQUFRg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GroupLayerView2D-0kZXr8pH.js",
+      "PackagePath": "staticwebassets\\assets\\GroupLayerView2D-0kZXr8pH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\GroupLayerView2D-BezKje1C.js",
+      "PackagePath": "staticwebassets\\assets\\GroupLayerView2D-BezKje1C.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\HighlightCounter-8mvj00Xs.js",
+      "PackagePath": "staticwebassets\\assets\\HighlightCounter-8mvj00Xs.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\HighlightCounter-RLFWYzsq.js",
+      "PackagePath": "staticwebassets\\assets\\HighlightCounter-RLFWYzsq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\HighlightGraphicContainer-66JYs-a7.js",
+      "PackagePath": "staticwebassets\\assets\\HighlightGraphicContainer-66JYs-a7.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\HighlightGraphicContainer-8B02WktQ.js",
+      "PackagePath": "staticwebassets\\assets\\HighlightGraphicContainer-8B02WktQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\I3SBinaryReader-BIZECZDK.js",
+      "PackagePath": "staticwebassets\\assets\\I3SBinaryReader-BIZECZDK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\I3SBinaryReader-yeC3tdrW.js",
+      "PackagePath": "staticwebassets\\assets\\I3SBinaryReader-yeC3tdrW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\I3SLayerDefinitions-v3CZ5-Ws.js",
+      "PackagePath": "staticwebassets\\assets\\I3SLayerDefinitions-v3CZ5-Ws.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\I3SLayerDefinitions-xSL3iiaV.js",
+      "PackagePath": "staticwebassets\\assets\\I3SLayerDefinitions-xSL3iiaV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\I3SUtil-NYuJ9kMS.js",
+      "PackagePath": "staticwebassets\\assets\\I3SUtil-NYuJ9kMS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\I3SUtil-UHu7_9Hb.js",
+      "PackagePath": "staticwebassets\\assets\\I3SUtil-UHu7_9Hb.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\IdentityManager-_lgjffe6.js",
+      "PackagePath": "staticwebassets\\assets\\IdentityManager-_lgjffe6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\IdentityManager-zARn4TlW.js",
+      "PackagePath": "staticwebassets\\assets\\IdentityManager-zARn4TlW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageHistogramParameters-TuJ_n_xO.js",
+      "PackagePath": "staticwebassets\\assets\\ImageHistogramParameters-TuJ_n_xO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageHistogramParameters-mWyam587.js",
+      "PackagePath": "staticwebassets\\assets\\ImageHistogramParameters-mWyam587.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryLayer-BgBestHq.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryLayer-BgBestHq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryLayer-U160THFt.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryLayer-U160THFt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryLayerView2D-BWzNKunL.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryLayerView2D-BWzNKunL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryLayerView2D-fWMrLJ0U.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryLayerView2D-fWMrLJ0U.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryTileLayer-9EK_S-IX.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryTileLayer-9EK_S-IX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryTileLayer-PnDuwAEf.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryTileLayer-PnDuwAEf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryTileLayerView2D-6lThYxQd.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryTileLayerView2D-6lThYxQd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImageryTileLayerView2D-8b4P9lXd.js",
+      "PackagePath": "staticwebassets\\assets\\ImageryTileLayerView2D-8b4P9lXd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ImmutableArray-H2O6RDFT.js",
+      "PackagePath": "staticwebassets\\assets\\ImmutableArray-H2O6RDFT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Indices-5KnCg4sS.js",
+      "PackagePath": "staticwebassets\\assets\\Indices-5KnCg4sS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Indices-zlsPDkGS.js",
+      "PackagePath": "staticwebassets\\assets\\Indices-zlsPDkGS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\IntegratedMesh3DTilesLayer-H2_jDrxv.js",
+      "PackagePath": "staticwebassets\\assets\\IntegratedMesh3DTilesLayer-H2_jDrxv.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\IntegratedMesh3DTilesLayer-I8-cIaD8.js",
+      "PackagePath": "staticwebassets\\assets\\IntegratedMesh3DTilesLayer-I8-cIaD8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\IntegratedMeshLayer-SceL7RMb.js",
+      "PackagePath": "staticwebassets\\assets\\IntegratedMeshLayer-SceL7RMb.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\IntegratedMeshLayer-pAbeWqQ6.js",
+      "PackagePath": "staticwebassets\\assets\\IntegratedMeshLayer-pAbeWqQ6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\InterleavedLayout-agb8gfXL.js",
+      "PackagePath": "staticwebassets\\assets\\InterleavedLayout-agb8gfXL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\InterleavedLayout-hTRsZHxK.js",
+      "PackagePath": "staticwebassets\\assets\\InterleavedLayout-hTRsZHxK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\KMLLayer-GcT5ZPMQ.js",
+      "PackagePath": "staticwebassets\\assets\\KMLLayer-GcT5ZPMQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\KMLLayer-N_V3EYhM.js",
+      "PackagePath": "staticwebassets\\assets\\KMLLayer-N_V3EYhM.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\KMLLayerView2D-R7BUHWQF.js",
+      "PackagePath": "staticwebassets\\assets\\KMLLayerView2D-R7BUHWQF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\KMLLayerView2D-abxGyrOw.js",
+      "PackagePath": "staticwebassets\\assets\\KMLLayerView2D-abxGyrOw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\KnowledgeGraphLayerView2D-e1qkAlo2.js",
+      "PackagePath": "staticwebassets\\assets\\KnowledgeGraphLayerView2D-e1qkAlo2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\KnowledgeGraphLayerView2D-j1mYXx1h.js",
+      "PackagePath": "staticwebassets\\assets\\KnowledgeGraphLayerView2D-j1mYXx1h.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LabelMetric-N02-mKpG.js",
+      "PackagePath": "staticwebassets\\assets\\LabelMetric-N02-mKpG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LabelMetric-nKPEfurC.js",
+      "PackagePath": "staticwebassets\\assets\\LabelMetric-nKPEfurC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LayerView-frmpzBvS.js",
+      "PackagePath": "staticwebassets\\assets\\LayerView-frmpzBvS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LayerView-j8BYsVob.js",
+      "PackagePath": "staticwebassets\\assets\\LayerView-j8BYsVob.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LercWorker-fcgO_UOh.js",
+      "PackagePath": "staticwebassets\\assets\\LercWorker-fcgO_UOh.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LercWorker-qGdbdxo3.js",
+      "PackagePath": "staticwebassets\\assets\\LercWorker-qGdbdxo3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LineOfSightLayer-qhbWLaTV.js",
+      "PackagePath": "staticwebassets\\assets\\LineOfSightLayer-qhbWLaTV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LineOfSightLayer-ucU1nAq1.js",
+      "PackagePath": "staticwebassets\\assets\\LineOfSightLayer-ucU1nAq1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LinkChartLayer-R5Cb_s6r.js",
+      "PackagePath": "staticwebassets\\assets\\LinkChartLayer-R5Cb_s6r.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\LinkChartLayer-sirnSdbx.js",
+      "PackagePath": "staticwebassets\\assets\\LinkChartLayer-sirnSdbx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Lyr3DWorker-98CfVgjO.js",
+      "PackagePath": "staticwebassets\\assets\\Lyr3DWorker-98CfVgjO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Lyr3DWorker-roGy0YJt.js",
+      "PackagePath": "staticwebassets\\assets\\Lyr3DWorker-roGy0YJt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MagnifierPrograms-Xz6g6oRh.js",
+      "PackagePath": "staticwebassets\\assets\\MagnifierPrograms-Xz6g6oRh.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MagnifierPrograms-xXXHkHzi.js",
+      "PackagePath": "staticwebassets\\assets\\MagnifierPrograms-xXXHkHzi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MapImageLayerView2D-R1QwJQnE.js",
+      "PackagePath": "staticwebassets\\assets\\MapImageLayerView2D-R1QwJQnE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MapImageLayerView2D-iIlnhpoG.js",
+      "PackagePath": "staticwebassets\\assets\\MapImageLayerView2D-iIlnhpoG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MapNotesLayer-IKmRZXps.js",
+      "PackagePath": "staticwebassets\\assets\\MapNotesLayer-IKmRZXps.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MapNotesLayer-Sxa-copW.js",
+      "PackagePath": "staticwebassets\\assets\\MapNotesLayer-Sxa-copW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MapNotesLayerView2D-BGZXfLDS.js",
+      "PackagePath": "staticwebassets\\assets\\MapNotesLayerView2D-BGZXfLDS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MapNotesLayerView2D-BodiJdOv.js",
+      "PackagePath": "staticwebassets\\assets\\MapNotesLayerView2D-BodiJdOv.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MediaLayer-Bp_Y3hVr.js",
+      "PackagePath": "staticwebassets\\assets\\MediaLayer-Bp_Y3hVr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MediaLayer-hyMviYbK.js",
+      "PackagePath": "staticwebassets\\assets\\MediaLayer-hyMviYbK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MediaLayerView2D-Pc_u03AV.js",
+      "PackagePath": "staticwebassets\\assets\\MediaLayerView2D-Pc_u03AV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MediaLayerView2D-mx45r4Xd.js",
+      "PackagePath": "staticwebassets\\assets\\MediaLayerView2D-mx45r4Xd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MemorySourceWorker-Pjp5XrnG.js",
+      "PackagePath": "staticwebassets\\assets\\MemorySourceWorker-Pjp5XrnG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MemorySourceWorker-UauDaxSf.js",
+      "PackagePath": "staticwebassets\\assets\\MemorySourceWorker-UauDaxSf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Mesh-Kz2X7c2I.js",
+      "PackagePath": "staticwebassets\\assets\\Mesh-Kz2X7c2I.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Mesh-aQujZ2mk.js",
+      "PackagePath": "staticwebassets\\assets\\Mesh-aQujZ2mk.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MeshLocalVertexSpace-oi8ZgxaY.js",
+      "PackagePath": "staticwebassets\\assets\\MeshLocalVertexSpace-oi8ZgxaY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\MeshLocalVertexSpace-sNL7C3tw.js",
+      "PackagePath": "staticwebassets\\assets\\MeshLocalVertexSpace-sNL7C3tw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\NestedMap-9UouPomH.js",
+      "PackagePath": "staticwebassets\\assets\\NestedMap-9UouPomH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OGCFeatureLayer-3OR3dg3-.js",
+      "PackagePath": "staticwebassets\\assets\\OGCFeatureLayer-3OR3dg3-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OGCFeatureLayer-p8k36m0w.js",
+      "PackagePath": "staticwebassets\\assets\\OGCFeatureLayer-p8k36m0w.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OGCFeatureLayerView2D-fPM2Lr-t.js",
+      "PackagePath": "staticwebassets\\assets\\OGCFeatureLayerView2D-fPM2Lr-t.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OGCFeatureLayerView2D-yj74tJNH.js",
+      "PackagePath": "staticwebassets\\assets\\OGCFeatureLayerView2D-yj74tJNH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ObjectStack-6VC_culX.js",
+      "PackagePath": "staticwebassets\\assets\\ObjectStack-6VC_culX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ObjectStack-GZmZy7Xt.js",
+      "PackagePath": "staticwebassets\\assets\\ObjectStack-GZmZy7Xt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OpenStreetMapLayer-OBquNp8n.js",
+      "PackagePath": "staticwebassets\\assets\\OpenStreetMapLayer-OBquNp8n.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OpenStreetMapLayer-tcsadNew.js",
+      "PackagePath": "staticwebassets\\assets\\OpenStreetMapLayer-tcsadNew.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OrderIndependentTransparency-3VeXlAbi.js",
+      "PackagePath": "staticwebassets\\assets\\OrderIndependentTransparency-3VeXlAbi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OrderIndependentTransparency-XnADLRJT.js",
+      "PackagePath": "staticwebassets\\assets\\OrderIndependentTransparency-XnADLRJT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OrientedImageryLayer-1DvGYMGI.js",
+      "PackagePath": "staticwebassets\\assets\\OrientedImageryLayer-1DvGYMGI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\OrientedImageryLayer-hKzB8t-T.js",
+      "PackagePath": "staticwebassets\\assets\\OrientedImageryLayer-hKzB8t-T.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PBFDecoderWorker-SL_dLqOA.js",
+      "PackagePath": "staticwebassets\\assets\\PBFDecoderWorker-SL_dLqOA.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PBFDecoderWorker-jtwxJhKr.js",
+      "PackagePath": "staticwebassets\\assets\\PBFDecoderWorker-jtwxJhKr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PointCloudLayer-1YG1zJ8X.js",
+      "PackagePath": "staticwebassets\\assets\\PointCloudLayer-1YG1zJ8X.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PointCloudLayer-eUF5B2TO.js",
+      "PackagePath": "staticwebassets\\assets\\PointCloudLayer-eUF5B2TO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PointCloudUniqueValueRenderer-9OVWKeyx.js",
+      "PackagePath": "staticwebassets\\assets\\PointCloudUniqueValueRenderer-9OVWKeyx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PointCloudUniqueValueRenderer-ygv73lIY.js",
+      "PackagePath": "staticwebassets\\assets\\PointCloudUniqueValueRenderer-ygv73lIY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PointCloudWorker-dBXWKsHH.js",
+      "PackagePath": "staticwebassets\\assets\\PointCloudWorker-dBXWKsHH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PointCloudWorker-mn_pTrHC.js",
+      "PackagePath": "staticwebassets\\assets\\PointCloudWorker-mn_pTrHC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PooledRBush-2hUm0OiC.js",
+      "PackagePath": "staticwebassets\\assets\\PooledRBush-2hUm0OiC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\PooledRBush-EYXYTQmO.js",
+      "PackagePath": "staticwebassets\\assets\\PooledRBush-EYXYTQmO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Popup-aVhR_mcu.js",
+      "PackagePath": "staticwebassets\\assets\\Popup-aVhR_mcu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Popup-e9TP-V2X.js",
+      "PackagePath": "staticwebassets\\assets\\Popup-e9TP-V2X.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Program-8dzz1fbM.js",
+      "PackagePath": "staticwebassets\\assets\\Program-8dzz1fbM.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Program-8etJiSBT.js",
+      "PackagePath": "staticwebassets\\assets\\Program-8etJiSBT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ProgramTemplate-EnJEZ1k2.js",
+      "PackagePath": "staticwebassets\\assets\\ProgramTemplate-EnJEZ1k2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ProgramTemplate-I7FGaqSP.js",
+      "PackagePath": "staticwebassets\\assets\\ProgramTemplate-I7FGaqSP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\QueryEngine-Dym4hc2O.js",
+      "PackagePath": "staticwebassets\\assets\\QueryEngine-Dym4hc2O.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\QueryEngine-bt-tQWjY.js",
+      "PackagePath": "staticwebassets\\assets\\QueryEngine-bt-tQWjY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\QueryEngineCapabilities-PzVpW5yD.js",
+      "PackagePath": "staticwebassets\\assets\\QueryEngineCapabilities-PzVpW5yD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RasterSymbolizer-5vPNMsST.js",
+      "PackagePath": "staticwebassets\\assets\\RasterSymbolizer-5vPNMsST.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RasterSymbolizer-porS3ZD2.js",
+      "PackagePath": "staticwebassets\\assets\\RasterSymbolizer-porS3ZD2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RasterVFDisplayObject-m65pQlvx.js",
+      "PackagePath": "staticwebassets\\assets\\RasterVFDisplayObject-m65pQlvx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RasterVFDisplayObject-yOIBFNsj.js",
+      "PackagePath": "staticwebassets\\assets\\RasterVFDisplayObject-yOIBFNsj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RasterWorker--llg7Rxe.js",
+      "PackagePath": "staticwebassets\\assets\\RasterWorker--llg7Rxe.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RasterWorker-YIJrulmc.js",
+      "PackagePath": "staticwebassets\\assets\\RasterWorker-YIJrulmc.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RawBlockCache-Cu2HejFL.js",
+      "PackagePath": "staticwebassets\\assets\\RawBlockCache-Cu2HejFL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RawBlockCache-WHUGdePE.js",
+      "PackagePath": "staticwebassets\\assets\\RawBlockCache-WHUGdePE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Rect-pT1ASav_.js",
+      "PackagePath": "staticwebassets\\assets\\Rect-pT1ASav_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RefreshableLayerView-X1fiquPt.js",
+      "PackagePath": "staticwebassets\\assets\\RefreshableLayerView-X1fiquPt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RefreshableLayerView-X397ZiDW.js",
+      "PackagePath": "staticwebassets\\assets\\RefreshableLayerView-X397ZiDW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RenderState-T1HVYW47.js",
+      "PackagePath": "staticwebassets\\assets\\RenderState-T1HVYW47.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RenderingContext-9gCIbLmq.js",
+      "PackagePath": "staticwebassets\\assets\\RenderingContext-9gCIbLmq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RenderingContext-eI-RO0DO.js",
+      "PackagePath": "staticwebassets\\assets\\RenderingContext-eI-RO0DO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RouteLayer-9nzjxnIt.js",
+      "PackagePath": "staticwebassets\\assets\\RouteLayer-9nzjxnIt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RouteLayer-GtQLbH1y.js",
+      "PackagePath": "staticwebassets\\assets\\RouteLayer-GtQLbH1y.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RouteLayerView2D-UNQantSr.js",
+      "PackagePath": "staticwebassets\\assets\\RouteLayerView2D-UNQantSr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\RouteLayerView2D-WLiVFrxm.js",
+      "PackagePath": "staticwebassets\\assets\\RouteLayerView2D-WLiVFrxm.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SDFHelper-125pK6bJ.js",
+      "PackagePath": "staticwebassets\\assets\\SDFHelper-125pK6bJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SDFHelper-GzoMSPet.js",
+      "PackagePath": "staticwebassets\\assets\\SDFHelper-GzoMSPet.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneLayer-ImaljP6t.js",
+      "PackagePath": "staticwebassets\\assets\\SceneLayer-ImaljP6t.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneLayer-bifycnvH.js",
+      "PackagePath": "staticwebassets\\assets\\SceneLayer-bifycnvH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneLayerSnappingSourceWorker--h0dj4jJ.js",
+      "PackagePath": "staticwebassets\\assets\\SceneLayerSnappingSourceWorker--h0dj4jJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneLayerSnappingSourceWorker-dhsm-NYj.js",
+      "PackagePath": "staticwebassets\\assets\\SceneLayerSnappingSourceWorker-dhsm-NYj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneLayerWorker-tLBPk4TP.js",
+      "PackagePath": "staticwebassets\\assets\\SceneLayerWorker-tLBPk4TP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneLayerWorker-xJtwmq6N.js",
+      "PackagePath": "staticwebassets\\assets\\SceneLayerWorker-xJtwmq6N.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneService-REIBLPOG.js",
+      "PackagePath": "staticwebassets\\assets\\SceneService-REIBLPOG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SceneService-eB7aCyNO.js",
+      "PackagePath": "staticwebassets\\assets\\SceneService-eB7aCyNO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SourceLayerData-0QVl6HO4.js",
+      "PackagePath": "staticwebassets\\assets\\SourceLayerData-0QVl6HO4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SourceLayerData-Zp7vQql1.js",
+      "PackagePath": "staticwebassets\\assets\\SourceLayerData-Zp7vQql1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SpatialFilter-T0SB85tG.js",
+      "PackagePath": "staticwebassets\\assets\\SpatialFilter-T0SB85tG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SpatialFilter-azyjM-vt.js",
+      "PackagePath": "staticwebassets\\assets\\SpatialFilter-azyjM-vt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Stop-LqB-98Sx.js",
+      "PackagePath": "staticwebassets\\assets\\Stop-LqB-98Sx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Stop-XC3Mubq3.js",
+      "PackagePath": "staticwebassets\\assets\\Stop-XC3Mubq3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\StreamLayer-2amxhr02.js",
+      "PackagePath": "staticwebassets\\assets\\StreamLayer-2amxhr02.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\StreamLayer-Uah8nAgD.js",
+      "PackagePath": "staticwebassets\\assets\\StreamLayer-Uah8nAgD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\StreamLayerView2D-2RMTFfjr.js",
+      "PackagePath": "staticwebassets\\assets\\StreamLayerView2D-2RMTFfjr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\StreamLayerView2D-viP_HKpz.js",
+      "PackagePath": "staticwebassets\\assets\\StreamLayerView2D-viP_HKpz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SubtypeGroupLayer-8LEQKe_A.js",
+      "PackagePath": "staticwebassets\\assets\\SubtypeGroupLayer-8LEQKe_A.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SubtypeGroupLayer-ZwSLqtgJ.js",
+      "PackagePath": "staticwebassets\\assets\\SubtypeGroupLayer-ZwSLqtgJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SubtypeGroupLayerView2D-BhX3YWjE.js",
+      "PackagePath": "staticwebassets\\assets\\SubtypeGroupLayerView2D-BhX3YWjE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\SubtypeGroupLayerView2D-YpFrfR3M.js",
+      "PackagePath": "staticwebassets\\assets\\SubtypeGroupLayerView2D-YpFrfR3M.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TechniqueInstance-oISWTR7w.js",
+      "PackagePath": "staticwebassets\\assets\\TechniqueInstance-oISWTR7w.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TechniqueInstance-oOmkJGa2.js",
+      "PackagePath": "staticwebassets\\assets\\TechniqueInstance-oOmkJGa2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Texture-WjIZ3yRU.js",
+      "PackagePath": "staticwebassets\\assets\\Texture-WjIZ3yRU.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Texture-bQ_GwJMm.js",
+      "PackagePath": "staticwebassets\\assets\\Texture-bQ_GwJMm.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Theme-ACdZPtUI.js",
+      "PackagePath": "staticwebassets\\assets\\Theme-ACdZPtUI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Theme-t_du9npe.js",
+      "PackagePath": "staticwebassets\\assets\\Theme-t_du9npe.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Tick-9XINKGQ0.js",
+      "PackagePath": "staticwebassets\\assets\\Tick-9XINKGQ0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Tick-xiTLhFn2.js",
+      "PackagePath": "staticwebassets\\assets\\Tick-xiTLhFn2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TileContainer-TT-lVHA1.js",
+      "PackagePath": "staticwebassets\\assets\\TileContainer-TT-lVHA1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TileContainer-Tu9hIFDI.js",
+      "PackagePath": "staticwebassets\\assets\\TileContainer-Tu9hIFDI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TileLayer-HzRnj8TU.js",
+      "PackagePath": "staticwebassets\\assets\\TileLayer-HzRnj8TU.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TileLayerView2D-OknNqQ7c.js",
+      "PackagePath": "staticwebassets\\assets\\TileLayerView2D-OknNqQ7c.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TileLayerView2D-en7E4m35.js",
+      "PackagePath": "staticwebassets\\assets\\TileLayerView2D-en7E4m35.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TimeOnly-8sXZ1gui.js",
+      "PackagePath": "staticwebassets\\assets\\TimeOnly-8sXZ1gui.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TimeOnly-Git9VSGk.js",
+      "PackagePath": "staticwebassets\\assets\\TimeOnly-Git9VSGk.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Tooltip-Eo21yN-3.js",
+      "PackagePath": "staticwebassets\\assets\\Tooltip-Eo21yN-3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Tooltip-uy8kLGWK.js",
+      "PackagePath": "staticwebassets\\assets\\Tooltip-uy8kLGWK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TurboLine-Q8nINVOL.js",
+      "PackagePath": "staticwebassets\\assets\\TurboLine-Q8nINVOL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\TurboLine-f-953dyn.js",
+      "PackagePath": "staticwebassets\\assets\\TurboLine-f-953dyn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\UnknownLayer-aHLTmRRk.js",
+      "PackagePath": "staticwebassets\\assets\\UnknownLayer-aHLTmRRk.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\UnknownLayer-uVYaE1Ht.js",
+      "PackagePath": "staticwebassets\\assets\\UnknownLayer-uVYaE1Ht.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\UnsupportedLayer-gP7FILsa.js",
+      "PackagePath": "staticwebassets\\assets\\UnsupportedLayer-gP7FILsa.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\UnsupportedLayer-k2-yXyEc.js",
+      "PackagePath": "staticwebassets\\assets\\UnsupportedLayer-k2-yXyEc.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\UpdateTracking2D-6GXbl9iV.js",
+      "PackagePath": "staticwebassets\\assets\\UpdateTracking2D-6GXbl9iV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\UpdateTracking2D-ZQVxck_D.js",
+      "PackagePath": "staticwebassets\\assets\\UpdateTracking2D-ZQVxck_D.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Util-MJ8HXC8z.js",
+      "PackagePath": "staticwebassets\\assets\\Util-MJ8HXC8z.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\Util-SAEl3zUU.js",
+      "PackagePath": "staticwebassets\\assets\\Util-SAEl3zUU.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VectorTileLayerView2D-1_5abEL1.js",
+      "PackagePath": "staticwebassets\\assets\\VectorTileLayerView2D-1_5abEL1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VectorTileLayerView2D-DhqrcKjF.js",
+      "PackagePath": "staticwebassets\\assets\\VectorTileLayerView2D-DhqrcKjF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VertexAttribute-Hx-XL6n4.js",
+      "PackagePath": "staticwebassets\\assets\\VertexAttribute-Hx-XL6n4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VideoLayerView2D-53pabdQo.js",
+      "PackagePath": "staticwebassets\\assets\\VideoLayerView2D-53pabdQo.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VideoLayerView2D-nL46z7gZ.js",
+      "PackagePath": "staticwebassets\\assets\\VideoLayerView2D-nL46z7gZ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VoxelLayer-QHXb8yLI.js",
+      "PackagePath": "staticwebassets\\assets\\VoxelLayer-QHXb8yLI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\VoxelLayer-TYeMYPGJ.js",
+      "PackagePath": "staticwebassets\\assets\\VoxelLayer-TYeMYPGJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WFSLayer-BWI8J29s.js",
+      "PackagePath": "staticwebassets\\assets\\WFSLayer-BWI8J29s.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WFSLayer-wxEuVOCg.js",
+      "PackagePath": "staticwebassets\\assets\\WFSLayer-wxEuVOCg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WFSSourceWorker-T-yT_AuZ.js",
+      "PackagePath": "staticwebassets\\assets\\WFSSourceWorker-T-yT_AuZ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WFSSourceWorker-e1J0shvG.js",
+      "PackagePath": "staticwebassets\\assets\\WFSSourceWorker-e1J0shvG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WGLContainer-KnChnmgf.js",
+      "PackagePath": "staticwebassets\\assets\\WGLContainer-KnChnmgf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WGLContainer-Q6bv50AA.js",
+      "PackagePath": "staticwebassets\\assets\\WGLContainer-Q6bv50AA.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WMSLayer-6-QdxhPO.js",
+      "PackagePath": "staticwebassets\\assets\\WMSLayer-6-QdxhPO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WMSLayer-RjVpXkZB.js",
+      "PackagePath": "staticwebassets\\assets\\WMSLayer-RjVpXkZB.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WMSLayerView2D-7lUT9yhL.js",
+      "PackagePath": "staticwebassets\\assets\\WMSLayerView2D-7lUT9yhL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WMSLayerView2D-NSsaKNxH.js",
+      "PackagePath": "staticwebassets\\assets\\WMSLayerView2D-NSsaKNxH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WMTSLayerView2D-6WHGroar.js",
+      "PackagePath": "staticwebassets\\assets\\WMTSLayerView2D-6WHGroar.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WMTSLayerView2D-x0cq3IQ8.js",
+      "PackagePath": "staticwebassets\\assets\\WMTSLayerView2D-x0cq3IQ8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WhereClause-R-jEJFxy.js",
+      "PackagePath": "staticwebassets\\assets\\WhereClause-R-jEJFxy.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WhereClause-_K37_S99.js",
+      "PackagePath": "staticwebassets\\assets\\WhereClause-_K37_S99.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WorkerTileHandler-PjMe-Z21.js",
+      "PackagePath": "staticwebassets\\assets\\WorkerTileHandler-PjMe-Z21.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\WorkerTileHandler-nhmaRJrw.js",
+      "PackagePath": "staticwebassets\\assets\\WorkerTileHandler-nhmaRJrw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\action-cC-gmX_i.js",
+      "PackagePath": "staticwebassets\\assets\\action-cC-gmX_i.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\action-fosVd9DN.js",
+      "PackagePath": "staticwebassets\\assets\\action-fosVd9DN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\action-group-AIUUIbwg.js",
+      "PackagePath": "staticwebassets\\assets\\action-group-AIUUIbwg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\action-group-a_ljFnlP.js",
+      "PackagePath": "staticwebassets\\assets\\action-group-a_ljFnlP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\action-menu--Mdx1TvV.js",
+      "PackagePath": "staticwebassets\\assets\\action-menu--Mdx1TvV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\action-menu-qa3EDQuO.js",
+      "PackagePath": "staticwebassets\\assets\\action-menu-qa3EDQuO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\apng-R3hZPHdq.js",
+      "PackagePath": "staticwebassets\\assets\\apng-R3hZPHdq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\apng-t1sQdt3t.js",
+      "PackagePath": "staticwebassets\\assets\\apng-t1sQdt3t.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ar-m2Ru99Kw.js",
+      "PackagePath": "staticwebassets\\assets\\ar-m2Ru99Kw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcade-AadugHM3.js",
+      "PackagePath": "staticwebassets\\assets\\arcade-AadugHM3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcade-WKkh2Mev.js",
+      "PackagePath": "staticwebassets\\assets\\arcade-WKkh2Mev.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcadeAsyncRuntime-csKbe4AU.js",
+      "PackagePath": "staticwebassets\\assets\\arcadeAsyncRuntime-csKbe4AU.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcadeAsyncRuntime-xBIuStNn.js",
+      "PackagePath": "staticwebassets\\assets\\arcadeAsyncRuntime-xBIuStNn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcadeUtils-non8NlhW.js",
+      "PackagePath": "staticwebassets\\assets\\arcadeUtils-non8NlhW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcadeUtils-nz2RYRkG.js",
+      "PackagePath": "staticwebassets\\assets\\arcadeUtils-nz2RYRkG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcgis-knowledge-client-core-2B_MoZUG.js",
+      "PackagePath": "staticwebassets\\assets\\arcgis-knowledge-client-core-2B_MoZUG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcgis-knowledge-client-core-simd-Ije2lDzW.js",
+      "PackagePath": "staticwebassets\\assets\\arcgis-knowledge-client-core-simd-Ije2lDzW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcgis-knowledge-client-core-simd-ql-sFEdG.js",
+      "PackagePath": "staticwebassets\\assets\\arcgis-knowledge-client-core-simd-ql-sFEdG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcgis-knowledge-client-core-uIXRw6Da.js",
+      "PackagePath": "staticwebassets\\assets\\arcgis-knowledge-client-core-uIXRw6Da.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcgisLayers-V_8jZrCj.js",
+      "PackagePath": "staticwebassets\\assets\\arcgisLayers-V_8jZrCj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\arcgisLayers-bcBnYC2T.js",
+      "PackagePath": "staticwebassets\\assets\\arcgisLayers-bcBnYC2T.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\associatedFeatureServiceUtils-7HTBjgzx.js",
+      "PackagePath": "staticwebassets\\assets\\associatedFeatureServiceUtils-7HTBjgzx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\associatedFeatureServiceUtils-peaMCBow.js",
+      "PackagePath": "staticwebassets\\assets\\associatedFeatureServiceUtils-peaMCBow.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\basicInterfaces-IwaMq8O_.js",
+      "PackagePath": "staticwebassets\\assets\\basicInterfaces-IwaMq8O_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\basis_transcoder-MqPIt54X.js",
+      "PackagePath": "staticwebassets\\assets\\basis_transcoder-MqPIt54X.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\basis_transcoder-gFdLSlo4.js",
+      "PackagePath": "staticwebassets\\assets\\basis_transcoder-gFdLSlo4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\bg_BG-Zh0O8yIZ.js",
+      "PackagePath": "staticwebassets\\assets\\bg_BG-Zh0O8yIZ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\bs_BA-EoGo05fu.js",
+      "PackagePath": "staticwebassets\\assets\\bs_BA-EoGo05fu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ca_ES-hscFeNNn.js",
+      "PackagePath": "staticwebassets\\assets\\ca_ES-hscFeNNn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-2xzfr_C6.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-2xzfr_C6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-VMuly6YX.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-VMuly6YX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-bar-BHNieUEI.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-bar-BHNieUEI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-bar-BLP6y7Ko.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-bar-BLP6y7Ko.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-group-JBkXy22W.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-group-JBkXy22W.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-group-K3Z5EcYV.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-group-K3Z5EcYV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-menu-WLWoncpa.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-menu-WLWoncpa.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-action-menu-yd9klmmN.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-action-menu-yd9klmmN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-button-b51yrFon.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-button-b51yrFon.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-button-mX9F1atf.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-button-mX9F1atf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-flow-c-KJ5rO0.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-flow-c-KJ5rO0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-flow-dXAMVNXw.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-flow-dXAMVNXw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-flow-item-hlwihn_3.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-flow-item-hlwihn_3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-flow-item-zhRz7xrF.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-flow-item-zhRz7xrF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-icon-Dnn5c0CW.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-icon-Dnn5c0CW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-icon-lrc2HVfq.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-icon-lrc2HVfq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-input-Ye_c_RJB.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-input-Ye_c_RJB.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-input-vVHi8fyr.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-input-vVHi8fyr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-label-EgvYh4PH.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-label-EgvYh4PH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-label-J8UTvuXK.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-label-J8UTvuXK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-list-7IOPvRN6.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-list-7IOPvRN6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-list-hxYi1KPH.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-list-hxYi1KPH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-list-item-group-4tuGpp3J.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-list-item-group-4tuGpp3J.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-list-item-group-VxitWSqC.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-list-item-group-VxitWSqC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-list-item-wgc7lEeh.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-list-item-wgc7lEeh.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-list-item-xDCcS3jJ.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-list-item-xDCcS3jJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-loader-7MZ83Zvg.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-loader-7MZ83Zvg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-loader-tWagKH0c.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-loader-tWagKH0c.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-modal-CBUlb4NR.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-modal-CBUlb4NR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-modal-ms0HtAvp.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-modal-ms0HtAvp.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-notice-9RFOMn64.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-notice-9RFOMn64.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-notice-In2ZwTl2.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-notice-In2ZwTl2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-tooltip-QAGQk_sg.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-tooltip-QAGQk_sg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\calcite-tooltip-ZU-zLOI4.js",
+      "PackagePath": "staticwebassets\\assets\\calcite-tooltip-ZU-zLOI4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\capabilities-JDLYy-4Q.js",
+      "PackagePath": "staticwebassets\\assets\\capabilities-JDLYy-4Q.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\capabilities-fr7c9q8Y.js",
+      "PackagePath": "staticwebassets\\assets\\capabilities-fr7c9q8Y.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\chartCommon-nwaAoCfY.js",
+      "PackagePath": "staticwebassets\\assets\\chartCommon-nwaAoCfY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\chartCommon-rOAlSzvr.js",
+      "PackagePath": "staticwebassets\\assets\\chartCommon-rOAlSzvr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\chartUtilsAm5-_atmNI9-.js",
+      "PackagePath": "staticwebassets\\assets\\chartUtilsAm5-_atmNI9-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\chartUtilsAm5-ydb0pA5R.js",
+      "PackagePath": "staticwebassets\\assets\\chartUtilsAm5-ydb0pA5R.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\clientSideDefaults-B3T7vjqo.js",
+      "PackagePath": "staticwebassets\\assets\\clientSideDefaults-B3T7vjqo.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\clientSideDefaults-J1kPmuvg.js",
+      "PackagePath": "staticwebassets\\assets\\clientSideDefaults-J1kPmuvg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\component-zIvoawdS.js",
+      "PackagePath": "staticwebassets\\assets\\component-zIvoawdS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\computeTranslationToOriginAndRotation-bzRbIg_2.js",
+      "PackagePath": "staticwebassets\\assets\\computeTranslationToOriginAndRotation-bzRbIg_2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\computeTranslationToOriginAndRotation-e-jRFn4I.js",
+      "PackagePath": "staticwebassets\\assets\\computeTranslationToOriginAndRotation-e-jRFn4I.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\conditionalSlot-3rD-Zl5o.js",
+      "PackagePath": "staticwebassets\\assets\\conditionalSlot-3rD-Zl5o.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\conditionalSlot-TVHKVRz0.js",
+      "PackagePath": "staticwebassets\\assets\\conditionalSlot-TVHKVRz0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\config-z2KFXUcx.js",
+      "PackagePath": "staticwebassets\\assets\\config-z2KFXUcx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\constants-gJZ7CV2L.js",
+      "PackagePath": "staticwebassets\\assets\\constants-gJZ7CV2L.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\createConnection-kmCzZrkU.js",
+      "PackagePath": "staticwebassets\\assets\\createConnection-kmCzZrkU.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\createConnection-uCyyF2zq.js",
+      "PackagePath": "staticwebassets\\assets\\createConnection-uCyyF2zq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\cs_CZ-6GM5cGtg.js",
+      "PackagePath": "staticwebassets\\assets\\cs_CZ-6GM5cGtg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\da_DK-havyKYv2.js",
+      "PackagePath": "staticwebassets\\assets\\da_DK-havyKYv2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\dataUtils-05tFGNpE.js",
+      "PackagePath": "staticwebassets\\assets\\dataUtils-05tFGNpE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\dataUtils-IJbEAnky.js",
+      "PackagePath": "staticwebassets\\assets\\dataUtils-IJbEAnky.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\date-be_IQzZd.js",
+      "PackagePath": "staticwebassets\\assets\\date-be_IQzZd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\de_CH-V5QttSa-.js",
+      "PackagePath": "staticwebassets\\assets\\de_CH-V5QttSa-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\de_DE-Fwy8dxxc.js",
+      "PackagePath": "staticwebassets\\assets\\de_DE-Fwy8dxxc.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\debounce-QhH3kU96.js",
+      "PackagePath": "staticwebassets\\assets\\debounce-QhH3kU96.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\deduplicate--cGSi1R9.js",
+      "PackagePath": "staticwebassets\\assets\\deduplicate--cGSi1R9.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\deduplicate-5n89Pxow.js",
+      "PackagePath": "staticwebassets\\assets\\deduplicate-5n89Pxow.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\deleteForwardEdits-h6_Dod9q.js",
+      "PackagePath": "staticwebassets\\assets\\deleteForwardEdits-h6_Dod9q.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\deleteForwardEdits-nVYM1P7t.js",
+      "PackagePath": "staticwebassets\\assets\\deleteForwardEdits-nVYM1P7t.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\dom-FOdLGKsR.js",
+      "PackagePath": "staticwebassets\\assets\\dom-FOdLGKsR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\doublePrecisionUtils-HJiLm-yC.js",
+      "PackagePath": "staticwebassets\\assets\\doublePrecisionUtils-HJiLm-yC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\drapedUtils--yFwWNYI.js",
+      "PackagePath": "staticwebassets\\assets\\drapedUtils--yFwWNYI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\drapedUtils-VaQMuhJm.js",
+      "PackagePath": "staticwebassets\\assets\\drapedUtils-VaQMuhJm.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\earcut-2zaYMmUW.js",
+      "PackagePath": "staticwebassets\\assets\\earcut-2zaYMmUW.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\earcut-MvFNGdvl.js",
+      "PackagePath": "staticwebassets\\assets\\earcut-MvFNGdvl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\edgeProcessing-ARsb4PNv.js",
+      "PackagePath": "staticwebassets\\assets\\edgeProcessing-ARsb4PNv.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\edgeProcessing-iWFvy96C.js",
+      "PackagePath": "staticwebassets\\assets\\edgeProcessing-iWFvy96C.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\editingSupport-MwlVvsKR.js",
+      "PackagePath": "staticwebassets\\assets\\editingSupport-MwlVvsKR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\editingSupport-hPILq3ee.js",
+      "PackagePath": "staticwebassets\\assets\\editingSupport-hPILq3ee.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\el_GR-Yz-QyhSI.js",
+      "PackagePath": "staticwebassets\\assets\\el_GR-Yz-QyhSI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\elevationInfoUtils-Q_cFQRcY.js",
+      "PackagePath": "staticwebassets\\assets\\elevationInfoUtils-Q_cFQRcY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\elevationInfoUtils-qD_MgxM6.js",
+      "PackagePath": "staticwebassets\\assets\\elevationInfoUtils-qD_MgxM6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\en_CA-eyWLRifP.js",
+      "PackagePath": "staticwebassets\\assets\\en_CA-eyWLRifP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\en_US-eyWLRifP.js",
+      "PackagePath": "staticwebassets\\assets\\en_US-eyWLRifP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\es_ES-o2wkmEuo.js",
+      "PackagePath": "staticwebassets\\assets\\es_ES-o2wkmEuo.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\et_EE-jAuARBOS.js",
+      "PackagePath": "staticwebassets\\assets\\et_EE-jAuARBOS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeForTopCount-9DKfy04L.js",
+      "PackagePath": "staticwebassets\\assets\\executeForTopCount-9DKfy04L.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeForTopCount-gfFCfnlt.js",
+      "PackagePath": "staticwebassets\\assets\\executeForTopCount-gfFCfnlt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeForTopExtents-ODkwkfSY.js",
+      "PackagePath": "staticwebassets\\assets\\executeForTopExtents-ODkwkfSY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeForTopExtents-ttvyu59z.js",
+      "PackagePath": "staticwebassets\\assets\\executeForTopExtents-ttvyu59z.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeForTopIds-aO_iJ_i2.js",
+      "PackagePath": "staticwebassets\\assets\\executeForTopIds-aO_iJ_i2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeForTopIds-knMeg1RJ.js",
+      "PackagePath": "staticwebassets\\assets\\executeForTopIds-knMeg1RJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeRelationshipQuery-K9bDYtow.js",
+      "PackagePath": "staticwebassets\\assets\\executeRelationshipQuery-K9bDYtow.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeRelationshipQuery-jmUlVbkh.js",
+      "PackagePath": "staticwebassets\\assets\\executeRelationshipQuery-jmUlVbkh.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeTopFeaturesQuery-muWaTrtc.js",
+      "PackagePath": "staticwebassets\\assets\\executeTopFeaturesQuery-muWaTrtc.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\executeTopFeaturesQuery-zm_rvk-z.js",
+      "PackagePath": "staticwebassets\\assets\\executeTopFeaturesQuery-zm_rvk-z.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featureLayerUtils-G0tWK1ct.js",
+      "PackagePath": "staticwebassets\\assets\\featureLayerUtils-G0tWK1ct.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featureLayerUtils-k9ubdi64.js",
+      "PackagePath": "staticwebassets\\assets\\featureLayerUtils-k9ubdi64.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featureSetUtils-19aN6jsG.js",
+      "PackagePath": "staticwebassets\\assets\\featureSetUtils-19aN6jsG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featureSetUtils-I-92s2oy.js",
+      "PackagePath": "staticwebassets\\assets\\featureSetUtils-I-92s2oy.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetbase-Pad5_T5m.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetbase-Pad5_T5m.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetbase-imK9Gi5Q.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetbase-imK9Gi5Q.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetgeom-5oxLN-Im.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetgeom-5oxLN-Im.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetgeom-d2PQVRw5.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetgeom-d2PQVRw5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetstats-M0ys1FbP.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetstats-M0ys1FbP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetstats-fZmFuXrJ.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetstats-fZmFuXrJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetstring-Anghj1bT.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetstring-Anghj1bT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\featuresetstring-DkkCXsGX.js",
+      "PackagePath": "staticwebassets\\assets\\featuresetstring-DkkCXsGX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\fetchService-bBaEFne1.js",
+      "PackagePath": "staticwebassets\\assets\\fetchService-bBaEFne1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\fetchService-sKjFkdZR.js",
+      "PackagePath": "staticwebassets\\assets\\fetchService-sKjFkdZR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\fi_FI-d4Rs7vi8.js",
+      "PackagePath": "staticwebassets\\assets\\fi_FI-d4Rs7vi8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\floatRGBA-JCp_PFmw.js",
+      "PackagePath": "staticwebassets\\assets\\floatRGBA-JCp_PFmw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\floatRGBA-kQi3h8bF.js",
+      "PackagePath": "staticwebassets\\assets\\floatRGBA-kQi3h8bF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\focusTrapComponent-juqkFNRQ.js",
+      "PackagePath": "staticwebassets\\assets\\focusTrapComponent-juqkFNRQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\fontUtils-0Ec_q6_d.js",
+      "PackagePath": "staticwebassets\\assets\\fontUtils-0Ec_q6_d.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\fontUtils-iAKxDwar.js",
+      "PackagePath": "staticwebassets\\assets\\fontUtils-iAKxDwar.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\form-MWxao9n4.js",
+      "PackagePath": "staticwebassets\\assets\\form-MWxao9n4.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\form-Tk39lQmD.js",
+      "PackagePath": "staticwebassets\\assets\\form-Tk39lQmD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\fr_FR-hDvN628_.js",
+      "PackagePath": "staticwebassets\\assets\\fr_FR-hDvN628_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geohashUtils-9rH-GfaD.js",
+      "PackagePath": "staticwebassets\\assets\\geohashUtils-9rH-GfaD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geohashUtils-v8fEOPVl.js",
+      "PackagePath": "staticwebassets\\assets\\geohashUtils-v8fEOPVl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geojson-ZswCFn9c.js",
+      "PackagePath": "staticwebassets\\assets\\geojson-ZswCFn9c.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geojson-t_8XlddB.js",
+      "PackagePath": "staticwebassets\\assets\\geojson-t_8XlddB.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geomasync-CVKzDZUi.js",
+      "PackagePath": "staticwebassets\\assets\\geomasync-CVKzDZUi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geomasync-zcU-njys.js",
+      "PackagePath": "staticwebassets\\assets\\geomasync-zcU-njys.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngine-BlklHQcZ.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngine-BlklHQcZ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngine-pf0WPCgV.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngine-pf0WPCgV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineAsync-SYnnDjJF.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineAsync-SYnnDjJF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineAsync-bJv4bCyK.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineAsync-bJv4bCyK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineBase-_G4STWXf.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineBase-_G4STWXf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineBase-oZzLmWMx.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineBase-oZzLmWMx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineJSON-5B_CTO3f.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineJSON-5B_CTO3f.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineJSON-YtE19plx.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineJSON-YtE19plx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineWorker-Z6SnDkr9.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineWorker-Z6SnDkr9.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryEngineWorker-pZxeFWsR.js",
+      "PackagePath": "staticwebassets\\assets\\geometryEngineWorker-pZxeFWsR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryServiceUtils-Gv8Zz2fR.js",
+      "PackagePath": "staticwebassets\\assets\\geometryServiceUtils-Gv8Zz2fR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\geometryServiceUtils-TCDeteCq.js",
+      "PackagePath": "staticwebassets\\assets\\geometryServiceUtils-TCDeteCq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\georeference-7t-vw3sN.js",
+      "PackagePath": "staticwebassets\\assets\\georeference-7t-vw3sN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\georeference-TEXxBnSE.js",
+      "PackagePath": "staticwebassets\\assets\\georeference-TEXxBnSE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\gif-hL1TRZxC.js",
+      "PackagePath": "staticwebassets\\assets\\gif-hL1TRZxC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\gif-lrzI4xiu.js",
+      "PackagePath": "staticwebassets\\assets\\gif-lrzI4xiu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\gltfexport-OWS9gxeP.js",
+      "PackagePath": "staticwebassets\\assets\\gltfexport-OWS9gxeP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\gltfexport-wZeghVQi.js",
+      "PackagePath": "staticwebassets\\assets\\gltfexport-wZeghVQi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\groupLayerUtils-DYEh8Qq3.js",
+      "PackagePath": "staticwebassets\\assets\\groupLayerUtils-DYEh8Qq3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\groupLayerUtils-e7sIzpJT.js",
+      "PackagePath": "staticwebassets\\assets\\groupLayerUtils-e7sIzpJT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\guid-9HVGSr_f.js",
+      "PackagePath": "staticwebassets\\assets\\guid-9HVGSr_f.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\he_IL-uMiAw4Wl.js",
+      "PackagePath": "staticwebassets\\assets\\he_IL-uMiAw4Wl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\highlightReasons-0i-vm_8p.js",
+      "PackagePath": "staticwebassets\\assets\\highlightReasons-0i-vm_8p.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\highlightReasons-XNvPUPDu.js",
+      "PackagePath": "staticwebassets\\assets\\highlightReasons-XNvPUPDu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\hr_HR-tOrtwB1u.js",
+      "PackagePath": "staticwebassets\\assets\\hr_HR-tOrtwB1u.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\hu_HU-tBJnhXJb.js",
+      "PackagePath": "staticwebassets\\assets\\hu_HU-tBJnhXJb.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\hydrated-AMkNOhKF.js",
+      "PackagePath": "staticwebassets\\assets\\hydrated-AMkNOhKF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\hydrated-B1Ol-xMf.js",
+      "PackagePath": "staticwebassets\\assets\\hydrated-B1Ol-xMf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\i3s--Xuu_ay8.js",
+      "PackagePath": "staticwebassets\\assets\\i3s--Xuu_ay8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\i3s-KhzZO5h_.js",
+      "PackagePath": "staticwebassets\\assets\\i3s-KhzZO5h_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\icon-GSbwKySN.js",
+      "PackagePath": "staticwebassets\\assets\\icon-GSbwKySN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\icon-g1_P788E.js",
+      "PackagePath": "staticwebassets\\assets\\icon-g1_P788E.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\id_ID-XHyCBpw9.js",
+      "PackagePath": "staticwebassets\\assets\\id_ID-XHyCBpw9.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\imageUtils-EtWYhj2r.js",
+      "PackagePath": "staticwebassets\\assets\\imageUtils-EtWYhj2r.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\imageUtils-PGLtPS0M.js",
+      "PackagePath": "staticwebassets\\assets\\imageUtils-PGLtPS0M.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\imageUtils-aBIClgk8.js",
+      "PackagePath": "staticwebassets\\assets\\imageUtils-aBIClgk8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\imageUtils-qKLRuI3J.js",
+      "PackagePath": "staticwebassets\\assets\\imageUtils-qKLRuI3J.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\imageryUtils-0bJ5Ynqm.js",
+      "PackagePath": "staticwebassets\\assets\\imageryUtils-0bJ5Ynqm.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\imageryUtils-J0IwVMh5.js",
+      "PackagePath": "staticwebassets\\assets\\imageryUtils-J0IwVMh5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\index--gWF5o_U.js",
+      "PackagePath": "staticwebassets\\assets\\index--gWF5o_U.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\index-2D1-uFkz.css",
+      "PackagePath": "staticwebassets\\assets\\index-2D1-uFkz.css"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\index-XQT8DJa7.css",
+      "PackagePath": "staticwebassets\\assets\\index-XQT8DJa7.css"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\index-k4MWwNZ3.js",
+      "PackagePath": "staticwebassets\\assets\\index-k4MWwNZ3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\index-ojESsuSw.js",
+      "PackagePath": "staticwebassets\\assets\\index-ojESsuSw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\input2-Bm-bnNCI.js",
+      "PackagePath": "staticwebassets\\assets\\input2-Bm-bnNCI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\input2-k2uVEnVE.js",
+      "PackagePath": "staticwebassets\\assets\\input2-k2uVEnVE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\interactive-9pS7Xi4k.js",
+      "PackagePath": "staticwebassets\\assets\\interactive-9pS7Xi4k.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\interactive-chozxBjn.js",
+      "PackagePath": "staticwebassets\\assets\\interactive-chozxBjn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\it_IT-AbCCe__c.js",
+      "PackagePath": "staticwebassets\\assets\\it_IT-AbCCe__c.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ja_JP-Rlf-hOL0.js",
+      "PackagePath": "staticwebassets\\assets\\ja_JP-Rlf-hOL0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\json-v6EOeNTY.js",
+      "PackagePath": "staticwebassets\\assets\\json-v6EOeNTY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\kmlUtils-HdCd4Myh.js",
+      "PackagePath": "staticwebassets\\assets\\kmlUtils-HdCd4Myh.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\kmlUtils-PPjsp6xZ.js",
+      "PackagePath": "staticwebassets\\assets\\kmlUtils-PPjsp6xZ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\knowledgeGraphService-5Og6nF4W.js",
+      "PackagePath": "staticwebassets\\assets\\knowledgeGraphService-5Og6nF4W.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\knowledgeGraphService-wup8Ycn9.js",
+      "PackagePath": "staticwebassets\\assets\\knowledgeGraphService-wup8Ycn9.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\knowledgegraph--VigzIky.js",
+      "PackagePath": "staticwebassets\\assets\\knowledgegraph--VigzIky.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\knowledgegraph-9ksCVa6_.js",
+      "PackagePath": "staticwebassets\\assets\\knowledgegraph-9ksCVa6_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ko_KR-_v1iWWtT.js",
+      "PackagePath": "staticwebassets\\assets\\ko_KR-_v1iWWtT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\label2-ZyBUBbUL.js",
+      "PackagePath": "staticwebassets\\assets\\label2-ZyBUBbUL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\layersCreator-CWwPK-dz.js",
+      "PackagePath": "staticwebassets\\assets\\layersCreator-CWwPK-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\layersCreator-ZIZqo3yu.js",
+      "PackagePath": "staticwebassets\\assets\\layersCreator-ZIZqo3yu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\layersLoader-fdDs7FAi.js",
+      "PackagePath": "staticwebassets\\assets\\layersLoader-fdDs7FAi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\layersLoader-nqJ18eQL.js",
+      "PackagePath": "staticwebassets\\assets\\layersLoader-nqJ18eQL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lclayout-qga1ONP5.js",
+      "PackagePath": "staticwebassets\\assets\\lclayout-qga1ONP5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lclayout-vrpvMOgl.js",
+      "PackagePath": "staticwebassets\\assets\\lclayout-vrpvMOgl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lerc-wasm-eHAJfqWd.js",
+      "PackagePath": "staticwebassets\\assets\\lerc-wasm-eHAJfqWd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lerc-wasm-vlFHYHcE.js",
+      "PackagePath": "staticwebassets\\assets\\lerc-wasm-vlFHYHcE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\libtess-asm-_Raf2Liz.js",
+      "PackagePath": "staticwebassets\\assets\\libtess-asm-_Raf2Liz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\libtess-asm-fwyBK2Xn.js",
+      "PackagePath": "staticwebassets\\assets\\libtess-asm-fwyBK2Xn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\libtess-sI5l1I3x.js",
+      "PackagePath": "staticwebassets\\assets\\libtess-sI5l1I3x.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\libtess-y4foqdxb.js",
+      "PackagePath": "staticwebassets\\assets\\libtess-y4foqdxb.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lineSegment-vGJyh65y.js",
+      "PackagePath": "staticwebassets\\assets\\lineSegment-vGJyh65y.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lineSegment-zNODofu7.js",
+      "PackagePath": "staticwebassets\\assets\\lineSegment-zNODofu7.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\loadGLTFMesh-RknjWIIs.js",
+      "PackagePath": "staticwebassets\\assets\\loadGLTFMesh-RknjWIIs.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\loadGLTFMesh-a5HGSStt.js",
+      "PackagePath": "staticwebassets\\assets\\loadGLTFMesh-a5HGSStt.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\loadable-AfbjH7aG.js",
+      "PackagePath": "staticwebassets\\assets\\loadable-AfbjH7aG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\loadable-D_GSRFVQ.js",
+      "PackagePath": "staticwebassets\\assets\\loadable-D_GSRFVQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\loader-N5Tspj9G.js",
+      "PackagePath": "staticwebassets\\assets\\loader-N5Tspj9G.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\loader-xYeKcY0X.js",
+      "PackagePath": "staticwebassets\\assets\\loader-xYeKcY0X.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lt_LT-UBpPtM2w.js",
+      "PackagePath": "staticwebassets\\assets\\lt_LT-UBpPtM2w.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lv_LV-Wuccr2bP.js",
+      "PackagePath": "staticwebassets\\assets\\lv_LV-Wuccr2bP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lyr3DWorker-AARzGp1D.js",
+      "PackagePath": "staticwebassets\\assets\\lyr3DWorker-AARzGp1D.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\lyr3DWorker-IHKMohef.js",
+      "PackagePath": "staticwebassets\\assets\\lyr3DWorker-IHKMohef.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mapViewDeps-R_Fd9EOJ.js",
+      "PackagePath": "staticwebassets\\assets\\mapViewDeps-R_Fd9EOJ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mapViewDeps-lBGGilIR.js",
+      "PackagePath": "staticwebassets\\assets\\mapViewDeps-lBGGilIR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mask-svg-t31ntHky.js",
+      "PackagePath": "staticwebassets\\assets\\mask-svg-t31ntHky.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mat3f64-Km-wq5a6.js",
+      "PackagePath": "staticwebassets\\assets\\mat3f64-Km-wq5a6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mat4f64-BN7r1OmG.js",
+      "PackagePath": "staticwebassets\\assets\\mat4f64-BN7r1OmG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mediaLayerUtils-PS9xFrMv.js",
+      "PackagePath": "staticwebassets\\assets\\mediaLayerUtils-PS9xFrMv.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\mediaLayerUtils-ttgXsU05.js",
+      "PackagePath": "staticwebassets\\assets\\mediaLayerUtils-ttgXsU05.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\meshFeatureSet-Na7jC7Fg.js",
+      "PackagePath": "staticwebassets\\assets\\meshFeatureSet-Na7jC7Fg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\meshFeatureSet-Wmmm0HE2.js",
+      "PackagePath": "staticwebassets\\assets\\meshFeatureSet-Wmmm0HE2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\meshVertexSpaceUtils-AtbXSZiD.js",
+      "PackagePath": "staticwebassets\\assets\\meshVertexSpaceUtils-AtbXSZiD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\meshVertexSpaceUtils-Ljg6n74f.js",
+      "PackagePath": "staticwebassets\\assets\\meshVertexSpaceUtils-Ljg6n74f.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\multiOriginJSONSupportUtils-R5XHSAtL.js",
+      "PackagePath": "staticwebassets\\assets\\multiOriginJSONSupportUtils-R5XHSAtL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\multidimensionalUtils-11ti0sMi.js",
+      "PackagePath": "staticwebassets\\assets\\multidimensionalUtils-11ti0sMi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\multidimensionalUtils-o0CGFRex.js",
+      "PackagePath": "staticwebassets\\assets\\multidimensionalUtils-o0CGFRex.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\nb_NO-QiKaA4xA.js",
+      "PackagePath": "staticwebassets\\assets\\nb_NO-QiKaA4xA.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\nl_NL-YPMyQFKz.js",
+      "PackagePath": "staticwebassets\\assets\\nl_NL-YPMyQFKz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\normalizeUtilsSync-3enqstuU.js",
+      "PackagePath": "staticwebassets\\assets\\normalizeUtilsSync-3enqstuU.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\normalizeUtilsSync-KgiAl1Hn.js",
+      "PackagePath": "staticwebassets\\assets\\normalizeUtilsSync-KgiAl1Hn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\number-a7KeVm5t.js",
+      "PackagePath": "staticwebassets\\assets\\number-a7KeVm5t.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\number-jMNzM8GF.js",
+      "PackagePath": "staticwebassets\\assets\\number-jMNzM8GF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\objectIdUtils-GktMsX8e.js",
+      "PackagePath": "staticwebassets\\assets\\objectIdUtils-GktMsX8e.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\objectResourceUtils-ErfN1SUy.js",
+      "PackagePath": "staticwebassets\\assets\\objectResourceUtils-ErfN1SUy.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\objectResourceUtils-tRG8H-Td.js",
+      "PackagePath": "staticwebassets\\assets\\objectResourceUtils-tRG8H-Td.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\observers--7jDZuG_.js",
+      "PackagePath": "staticwebassets\\assets\\observers--7jDZuG_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\observers-kPrMp_HT.js",
+      "PackagePath": "staticwebassets\\assets\\observers-kPrMp_HT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ogcFeatureUtils-Y-NO9ruX.js",
+      "PackagePath": "staticwebassets\\assets\\ogcFeatureUtils-Y-NO9ruX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ogcFeatureUtils-kSf6gC0A.js",
+      "PackagePath": "staticwebassets\\assets\\ogcFeatureUtils-kSf6gC0A.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\openCloseComponent-SsTpYO-S.js",
+      "PackagePath": "staticwebassets\\assets\\openCloseComponent-SsTpYO-S.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\openCloseComponent-tk7BEJqe.js",
+      "PackagePath": "staticwebassets\\assets\\openCloseComponent-tk7BEJqe.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\orientedBoundingBox-_XSHdfmH.js",
+      "PackagePath": "staticwebassets\\assets\\orientedBoundingBox-_XSHdfmH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\orientedBoundingBox-oQ70kABu.js",
+      "PackagePath": "staticwebassets\\assets\\orientedBoundingBox-oQ70kABu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\originUtils-1w5HeAJR.js",
+      "PackagePath": "staticwebassets\\assets\\originUtils-1w5HeAJR.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\overlay-svg-vXvOp22I.js",
+      "PackagePath": "staticwebassets\\assets\\overlay-svg-vXvOp22I.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pe-wasm-vhAdn1L6.js",
+      "PackagePath": "staticwebassets\\assets\\pe-wasm-vhAdn1L6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pe-wasm-wVtqUuw8.js",
+      "PackagePath": "staticwebassets\\assets\\pe-wasm-wVtqUuw8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\persistable-7r5C0pB-.js",
+      "PackagePath": "staticwebassets\\assets\\persistable-7r5C0pB-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\persistable-Jfedz5Xu.js",
+      "PackagePath": "staticwebassets\\assets\\persistable-Jfedz5Xu.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\perspectiveUtils-gUhl-sHa.js",
+      "PackagePath": "staticwebassets\\assets\\perspectiveUtils-gUhl-sHa.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\perspectiveUtils-nSdTLSmo.js",
+      "PackagePath": "staticwebassets\\assets\\perspectiveUtils-nSdTLSmo.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pieChart-HRQqw8lO.js",
+      "PackagePath": "staticwebassets\\assets\\pieChart-HRQqw8lO.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pieChart-qh5ROgXo.js",
+      "PackagePath": "staticwebassets\\assets\\pieChart-qh5ROgXo.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pl_PL-1aQ453OS.js",
+      "PackagePath": "staticwebassets\\assets\\pl_PL-1aQ453OS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\plane-C6QNwTuM.js",
+      "PackagePath": "staticwebassets\\assets\\plane-C6QNwTuM.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\plane-TPItz9u1.js",
+      "PackagePath": "staticwebassets\\assets\\plane-TPItz9u1.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\popupUtils-5dpcHgeQ.js",
+      "PackagePath": "staticwebassets\\assets\\popupUtils-5dpcHgeQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\popupUtils-7T70lsze.js",
+      "PackagePath": "staticwebassets\\assets\\popupUtils-7T70lsze.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\portalLayers-1DjcF1Ot.js",
+      "PackagePath": "staticwebassets\\assets\\portalLayers-1DjcF1Ot.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\portalLayers-bTDa9-7M.js",
+      "PackagePath": "staticwebassets\\assets\\portalLayers-bTDa9-7M.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\portalUtils-D4NPxpr2.js",
+      "PackagePath": "staticwebassets\\assets\\portalUtils-D4NPxpr2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\portalUtils-DtoOTuWy.js",
+      "PackagePath": "staticwebassets\\assets\\portalUtils-DtoOTuWy.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\previewCIMSymbol-8fEygPa_.js",
+      "PackagePath": "staticwebassets\\assets\\previewCIMSymbol-8fEygPa_.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\previewCIMSymbol-HyBVqxD0.js",
+      "PackagePath": "staticwebassets\\assets\\previewCIMSymbol-HyBVqxD0.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\previewSymbol2D-QxWvtInT.js",
+      "PackagePath": "staticwebassets\\assets\\previewSymbol2D-QxWvtInT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\previewSymbol2D-WVj8o59-.js",
+      "PackagePath": "staticwebassets\\assets\\previewSymbol2D-WVj8o59-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\previewWebStyleSymbol-a0ssIjmg.js",
+      "PackagePath": "staticwebassets\\assets\\previewWebStyleSymbol-a0ssIjmg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\previewWebStyleSymbol-dLdc7QZn.js",
+      "PackagePath": "staticwebassets\\assets\\previewWebStyleSymbol-dLdc7QZn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pt_BR-lyUqGwB2.js",
+      "PackagePath": "staticwebassets\\assets\\pt_BR-lyUqGwB2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\pt_PT-o6ZnsHgl.js",
+      "PackagePath": "staticwebassets\\assets\\pt_PT-o6ZnsHgl.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\quat-PcXynEEj.js",
+      "PackagePath": "staticwebassets\\assets\\quat-PcXynEEj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\quat-k9GSoVII.js",
+      "PackagePath": "staticwebassets\\assets\\quat-k9GSoVII.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\quatf64-upBlkCdX.js",
+      "PackagePath": "staticwebassets\\assets\\quatf64-upBlkCdX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\queryAttachments-TFJ-U7Lm.js",
+      "PackagePath": "staticwebassets\\assets\\queryAttachments-TFJ-U7Lm.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\queryAttachments-irnKjtDn.js",
+      "PackagePath": "staticwebassets\\assets\\queryAttachments-irnKjtDn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\queryTopFeatures-lsjrxQkK.js",
+      "PackagePath": "staticwebassets\\assets\\queryTopFeatures-lsjrxQkK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\queryTopFeatures-uJTkbcsE.js",
+      "PackagePath": "staticwebassets\\assets\\queryTopFeatures-uJTkbcsE.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\rasterProjectionHelper-1i4_SPz8.js",
+      "PackagePath": "staticwebassets\\assets\\rasterProjectionHelper-1i4_SPz8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\rasterProjectionHelper-IwsaSjwf.js",
+      "PackagePath": "staticwebassets\\assets\\rasterProjectionHelper-IwsaSjwf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\rasterUtils-4sCvu5aQ.js",
+      "PackagePath": "staticwebassets\\assets\\rasterUtils-4sCvu5aQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\rasterUtils-KZA4SZPN.js",
+      "PackagePath": "staticwebassets\\assets\\rasterUtils-KZA4SZPN.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\rasterizingUtils-eMhZA7lY.js",
+      "PackagePath": "staticwebassets\\assets\\rasterizingUtils-eMhZA7lY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\rasterizingUtils-h4PWn_hL.js",
+      "PackagePath": "staticwebassets\\assets\\rasterizingUtils-h4PWn_hL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\request-DW6CeN3z.js",
+      "PackagePath": "staticwebassets\\assets\\request-DW6CeN3z.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\request-JgJRwmdg.js",
+      "PackagePath": "staticwebassets\\assets\\request-JgJRwmdg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\requestImageUtils-VDZXvkxj.js",
+      "PackagePath": "staticwebassets\\assets\\requestImageUtils-VDZXvkxj.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\requestImageUtils-WDWp-ZlQ.js",
+      "PackagePath": "staticwebassets\\assets\\requestImageUtils-WDWp-ZlQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\requestPresets-GHzBsa3j.js",
+      "PackagePath": "staticwebassets\\assets\\requestPresets-GHzBsa3j.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\requestPresets-XSBHQvdG.js",
+      "PackagePath": "staticwebassets\\assets\\requestPresets-XSBHQvdG.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceExtension-0ywb9U4Z.js",
+      "PackagePath": "staticwebassets\\assets\\resourceExtension-0ywb9U4Z.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceExtension-M0DpGfns.js",
+      "PackagePath": "staticwebassets\\assets\\resourceExtension-M0DpGfns.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceUtils-5nsCrby6.js",
+      "PackagePath": "staticwebassets\\assets\\resourceUtils-5nsCrby6.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceUtils-7znZoKSq.js",
+      "PackagePath": "staticwebassets\\assets\\resourceUtils-7znZoKSq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceUtils-M4AbXYSY.js",
+      "PackagePath": "staticwebassets\\assets\\resourceUtils-M4AbXYSY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceUtils-SrRxXAs8.js",
+      "PackagePath": "staticwebassets\\assets\\resourceUtils-SrRxXAs8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceUtils-YgCewm2r.js",
+      "PackagePath": "staticwebassets\\assets\\resourceUtils-YgCewm2r.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resourceUtils-g7TAvzIK.js",
+      "PackagePath": "staticwebassets\\assets\\resourceUtils-g7TAvzIK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\resources4-udsg7e2w.js",
+      "PackagePath": "staticwebassets\\assets\\resources4-udsg7e2w.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ro_RO-YIwLBwwg.js",
+      "PackagePath": "staticwebassets\\assets\\ro_RO-YIwLBwwg.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\ru_RU-Xn7Ds-ry.js",
+      "PackagePath": "staticwebassets\\assets\\ru_RU-Xn7Ds-ry.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\saveAPIKeyUtils-6b67jz-a.js",
+      "PackagePath": "staticwebassets\\assets\\saveAPIKeyUtils-6b67jz-a.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\saveAPIKeyUtils-i9FJtEas.js",
+      "PackagePath": "staticwebassets\\assets\\saveAPIKeyUtils-i9FJtEas.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\scrim-icQuQ4CK.js",
+      "PackagePath": "staticwebassets\\assets\\scrim-icQuQ4CK.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\scrim-wGZznMPH.js",
+      "PackagePath": "staticwebassets\\assets\\scrim-wGZznMPH.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sk_SK-lW-A9Llp.js",
+      "PackagePath": "staticwebassets\\assets\\sk_SK-lW-A9Llp.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sl_SL-DJbbPhCy.js",
+      "PackagePath": "staticwebassets\\assets\\sl_SL-DJbbPhCy.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sourceUtils-gDiZprTI.js",
+      "PackagePath": "staticwebassets\\assets\\sourceUtils-gDiZprTI.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sourceUtils-k54YM7Ki.js",
+      "PackagePath": "staticwebassets\\assets\\sourceUtils-k54YM7Ki.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sphere-96Bc5Bbd.js",
+      "PackagePath": "staticwebassets\\assets\\sphere-96Bc5Bbd.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sphere-mcs4EAZf.js",
+      "PackagePath": "staticwebassets\\assets\\sphere-mcs4EAZf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sr_RS-HTzJ9Pkx.js",
+      "PackagePath": "staticwebassets\\assets\\sr_RS-HTzJ9Pkx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\statsWorker-TS5bVS4R.js",
+      "PackagePath": "staticwebassets\\assets\\statsWorker-TS5bVS4R.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\statsWorker-rCLf1CtF.js",
+      "PackagePath": "staticwebassets\\assets\\statsWorker-rCLf1CtF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\streamLayerUtils-HXEhrcEF.js",
+      "PackagePath": "staticwebassets\\assets\\streamLayerUtils-HXEhrcEF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\streamLayerUtils-bp9PzlCh.js",
+      "PackagePath": "staticwebassets\\assets\\streamLayerUtils-bp9PzlCh.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\sv_SE-Z8LyXaIi.js",
+      "PackagePath": "staticwebassets\\assets\\sv_SE-Z8LyXaIi.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\symbolColorUtils-h8LaV4q5.js",
+      "PackagePath": "staticwebassets\\assets\\symbolColorUtils-h8LaV4q5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\symbolColorUtils-i0uRiVoM.js",
+      "PackagePath": "staticwebassets\\assets\\symbolColorUtils-i0uRiVoM.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\symbolLayerUtils-K8rKUUsC.js",
+      "PackagePath": "staticwebassets\\assets\\symbolLayerUtils-K8rKUUsC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\symbolLayerUtils-nzEtwCNw.js",
+      "PackagePath": "staticwebassets\\assets\\symbolLayerUtils-nzEtwCNw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\t9n-6bgVUfnx.js",
+      "PackagePath": "staticwebassets\\assets\\t9n-6bgVUfnx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\t9n-R90Cs_Im.js",
+      "PackagePath": "staticwebassets\\assets\\t9n-R90Cs_Im.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\testSVGPremultipliedAlpha--H-u2uEn.js",
+      "PackagePath": "staticwebassets\\assets\\testSVGPremultipliedAlpha--H-u2uEn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\testSVGPremultipliedAlpha-R9Kw-dwX.js",
+      "PackagePath": "staticwebassets\\assets\\testSVGPremultipliedAlpha-R9Kw-dwX.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\th_TH-4uUl3VxF.js",
+      "PackagePath": "staticwebassets\\assets\\th_TH-4uUl3VxF.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\tileUtils-pcBJnprf.js",
+      "PackagePath": "staticwebassets\\assets\\tileUtils-pcBJnprf.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\timeSupport-3y8xSYTQ.js",
+      "PackagePath": "staticwebassets\\assets\\timeSupport-3y8xSYTQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\timeSupport-m64xaGc8.js",
+      "PackagePath": "staticwebassets\\assets\\timeSupport-m64xaGc8.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\tr_TR-vXXQf5Mr.js",
+      "PackagePath": "staticwebassets\\assets\\tr_TR-vXXQf5Mr.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\triangle-CLJkgGWz.js",
+      "PackagePath": "staticwebassets\\assets\\triangle-CLJkgGWz.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\triangle-PUcWboIw.js",
+      "PackagePath": "staticwebassets\\assets\\triangle-PUcWboIw.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\types-GBdbcYRa.js",
+      "PackagePath": "staticwebassets\\assets\\types-GBdbcYRa.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\uk_UA-DutcYu8K.js",
+      "PackagePath": "staticwebassets\\assets\\uk_UA-DutcYu8K.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\uploadAssetErrors-fUDs60t9.js",
+      "PackagePath": "staticwebassets\\assets\\uploadAssetErrors-fUDs60t9.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\uploadAssetErrors-uFrnNzX5.js",
+      "PackagePath": "staticwebassets\\assets\\uploadAssetErrors-uFrnNzX5.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\uploadAssets-6ViO99TL.js",
+      "PackagePath": "staticwebassets\\assets\\uploadAssets-6ViO99TL.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\uploadAssets-gwzNtJMC.js",
+      "PackagePath": "staticwebassets\\assets\\uploadAssets-gwzNtJMC.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-83SFI-KS.js",
+      "PackagePath": "staticwebassets\\assets\\utils-83SFI-KS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-AB3Wp3mS.js",
+      "PackagePath": "staticwebassets\\assets\\utils-AB3Wp3mS.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-IFQMlFgq.js",
+      "PackagePath": "staticwebassets\\assets\\utils-IFQMlFgq.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-LO9jIaDQ.js",
+      "PackagePath": "staticwebassets\\assets\\utils-LO9jIaDQ.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-U-XqB8El.js",
+      "PackagePath": "staticwebassets\\assets\\utils-U-XqB8El.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-UqnP26kx.js",
+      "PackagePath": "staticwebassets\\assets\\utils-UqnP26kx.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-Z6bfKApA.js",
+      "PackagePath": "staticwebassets\\assets\\utils-Z6bfKApA.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-_R4Joupo.js",
+      "PackagePath": "staticwebassets\\assets\\utils-_R4Joupo.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-b2UfQOIc.js",
+      "PackagePath": "staticwebassets\\assets\\utils-b2UfQOIc.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils-z6vwsAJV.js",
+      "PackagePath": "staticwebassets\\assets\\utils-z6vwsAJV.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils3-Z7Q1MSew.js",
+      "PackagePath": "staticwebassets\\assets\\utils3-Z7Q1MSew.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\utils3-tkWhTawD.js",
+      "PackagePath": "staticwebassets\\assets\\utils3-tkWhTawD.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\vec3-WsqksmQ2.js",
+      "PackagePath": "staticwebassets\\assets\\vec3-WsqksmQ2.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\vec3-gfBjOOsT.js",
+      "PackagePath": "staticwebassets\\assets\\vec3-gfBjOOsT.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\vec3f32-cbLeGFQ-.js",
+      "PackagePath": "staticwebassets\\assets\\vec3f32-cbLeGFQ-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\vi_VN-bEo-fMOP.js",
+      "PackagePath": "staticwebassets\\assets\\vi_VN-bEo-fMOP.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\webglDeps-GP5tdLl-.js",
+      "PackagePath": "staticwebassets\\assets\\webglDeps-GP5tdLl-.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\webglDeps-ou0OVuzm.js",
+      "PackagePath": "staticwebassets\\assets\\webglDeps-ou0OVuzm.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\wfsUtils-ESB_sEgn.js",
+      "PackagePath": "staticwebassets\\assets\\wfsUtils-ESB_sEgn.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\wfsUtils-dDzb0Hv3.js",
+      "PackagePath": "staticwebassets\\assets\\wfsUtils-dDzb0Hv3.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\xyChart-AnHpu27K.js",
+      "PackagePath": "staticwebassets\\assets\\xyChart-AnHpu27K.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\xyChart-YuZvZH71.js",
+      "PackagePath": "staticwebassets\\assets\\xyChart-YuZvZH71.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\zh_Hans-l-imEkFY.js",
+      "PackagePath": "staticwebassets\\assets\\zh_Hans-l-imEkFY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\zh_Hant-8IW9KGhY.js",
+      "PackagePath": "staticwebassets\\assets\\zh_Hant-8IW9KGhY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\assets\\zipjs-wrapper-tS5InKuY.js",
+      "PackagePath": "staticwebassets\\assets\\zipjs-wrapper-tS5InKuY.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\redpin.png",
+      "PackagePath": "staticwebassets\\redpin.png"
+    },
+    {
+      "Id": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

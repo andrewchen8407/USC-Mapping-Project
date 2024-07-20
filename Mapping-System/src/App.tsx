@@ -41,34 +41,27 @@ import {
 type EsriMapProps = {
   url: string;
 };
-const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
+const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
   // create a ref to element to be used as the map container
-  // const [view, setView] = useState<MapView>();
+  const [view, setView] = useState<any>();
 
-  // View should be in state
-  const [view, setView] = useState<any>(null);
-  // later in useEffect()
-  // setView(createMapView(mapRef.current, mapProperties, viewProperties));
   const createMapView = (mapRef: any) => {
     // Perpetual/Persistent foundation map layer
     const map = new Map({
       basemap: "streets-vector"
     });
-    // Levels of detail
-    const lods = LODS;
-    // Map view
     const view = new MapView({
-      container: mapRef.current, // add via ref
+      container: mapRef.current,  // Added via ref
       map: map,
       highlightOptions: {
-        color: new Color([255, 48, 111, 1]), // watermelon-colored highlight
+        color: new Color([255, 48, 111, 1]),  // watermelon-colored highlight
         haloOpacity: 0.9,
         fillOpacity: 0.2,
       },
-      center: [-118.2367, 34.1041],  // [-118.2367, 33.8688] alternatively,
+      center: [-118.2367, 34.1041],
       zoom: 11,             
       constraints: {
-        lods: lods,
+        lods: LODS,
       },
       spatialReference: {
         wkid: 102100,
@@ -107,14 +100,14 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
             xoffset: 2,
           }),
           name: "LA County CAMS",
-          placeholder: "Find place",
+          placeholder: "Find address",
           suggestionsEnabled: true,  // attribute suggestionsEnables is true by default
         }),
         new LocatorSearchSource({
           url: "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
           singleLineFieldName: "SingleLine",
           name: "Esri World Geocoder",
-          placeholder: "Find address",
+          placeholder: "Find place",
           outFields: ["Addr_type"],
           resultSymbol: new PictureMarkerSymbol({
             url: "/redpin.png",
@@ -128,12 +121,19 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
         new LayerSearchSource({
           searchFields: ["AIN"],
           layer: new FeatureLayer({
-            url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0",
+            url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer",
           }),
           name: "Assessor Identification Numbers",
           outFields: ["*"],
           placeholder: "Find AIN (ten digits)",
           popupEnabled: true,
+          resultSymbol: new PictureMarkerSymbol({
+            url: "/redpin.png",
+            width: 30,
+            height: 41,
+            yoffset: 14,
+            xoffset: 2,
+          }),
           popupTemplate: { 
             title: "AIN: {APN}",  // The APN is basically the AIN with hyphens: 1234-567-890.
             outFields: ["*"],
@@ -151,7 +151,6 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
               }
             ],
             content: formatContent,
-            // actions: [getParcelDetail]
           }  
         }),
       ],
@@ -200,7 +199,7 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
     }
 
     const searchExpand = new Expand({
-      expandIcon: "search",  // see https://developers.arcgis.com/calcite-design-system/icons/
+      expandIcon: "search",  // https://developers.arcgis.com/calcite-design-system/icons/
       collapseIcon: "search",
       expandTooltip: "Show Search Bar",
       collapseTooltip: "Hide Search Bar",
@@ -228,7 +227,7 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
       visibilityMode: "independent"
     });
     map.add(referenceLayers);
-    // Create the LayerList with custom actions
+    
     const layerList = new LayerList({
       view: view,
     });
@@ -281,9 +280,6 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
     return view;
   };
   
-  // const [map, setMap] = useState();
-  // const [view, setView] = useState(null);
-  
   // use a side effect to create the map after react has rendered the DOM
   useEffect(
     () => {
@@ -303,21 +299,8 @@ const EsriWithRef = forwardRef(function EsriMap(props: EsriMapProps, ref) {
 
   useEffect(() => {
     if (!view) {
-      // this is called before setView()
       return;
     }
-    // view.map.basemap = basemap;
-  }, [view]);
-
-  useEffect(() => {
-    if (!view) {
-      return;
-    }
-    // view.on("click", (click) => {
-    //   console.log("clear someting",click);
-    //   console.log(view.map)
-    //   // TODO: get the center
-    // });
   }, [view]);
 
   if (!ref) return null;
@@ -331,8 +314,7 @@ export default function App() {
   // The phrase `export default` makes App() the default export for this package.
   // This means that App() can be imported using any alias.
 
-  // User can enter address, place, or AIN to obtian location
-
+  // Users can enter address, place, or AIN to obtain location
   const esriRef = useRef();
   return (
     <>

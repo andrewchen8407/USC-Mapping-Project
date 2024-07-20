@@ -428,19 +428,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/henrysazo/.nuget/packages/": {}
+    "C:\\Users\\c273317\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/henrysazo/Desktop/CSCI401/main/USC-Mapping-Project/API/API.csproj",
+      "projectUniqueName": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/henrysazo/Desktop/CSCI401/main/USC-Mapping-Project/API/API.csproj",
-      "packagesPath": "/Users/henrysazo/.nuget/packages/",
-      "outputPath": "/Users/henrysazo/Desktop/CSCI401/main/USC-Mapping-Project/API/obj/",
+      "projectPath": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\c273317\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\c273317\\OneDrive - County of Los Angeles\\Desktop\\GitHub\\USC-Mapping-Project\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/henrysazo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\c273317\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -458,6 +458,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -488,7 +493,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\c273317\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

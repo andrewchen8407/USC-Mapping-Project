@@ -1,14 +1,18 @@
 # USC-Mapping-Project
+
 LA Assessor Portal: Build modular Esri/ArcGIS API independent of Assessor endpoints with focus on maintainability and reliability.
 
 ### Website
+
 [mappingproject.azurewebsites.net](https://mappingproject.azurewebsites.net/)
 
 ### Work Flow
+
 The main branch will contain functioning, tested code.  
 Main is considered "live." Only merge develop and main when you are sure the develop branch is functioning and tested.
 
 #### New feature
+
 * Branch from `develop` (not `main`) with `feature/<featurename>` format.
   * e.g. `feature/login_form`
 * When ready to submit, create a pull request from feature to develop branch.
@@ -19,8 +23,10 @@ Main is considered "live." Only merge develop and main when you are sure the dev
   * Only push `develop` to `main` if you are certain it is functional and tested.
 
 ### Build Project Locally
+
 The following instruction require a bash/zsh terminal as well as `dotnet` and `npm` commands.
 Consider setting up an environment such as a conda environment to install the necessary commands.
+
 * Open a terminal.
 * Clone repo to a directory of your choosing on your system.
   * e.g. `git clone git@github.com:andrewchen8407/USC-Mapping-Project.git`
