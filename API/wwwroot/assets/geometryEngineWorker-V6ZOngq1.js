@@ -1,0 +1,1 @@
+import{O as t}from"./geometryEngineJSON-wG985VYW.js";import"./geometryEngineBase-_6bRLcQ3.js";import"./index-UN0u_eSp.js";import"./json-v6EOeNTY.js";function m(r){return(0,t[r.operation])(...r.parameters)}export{m as executeGEOperation};

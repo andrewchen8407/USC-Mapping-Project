@@ -1,3 +1,5 @@
+// Layers.tsx
+
 // Layer imports
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer.js";
 import MapImageLayer from "@arcgis/core/layers/MapImageLayer.js";
@@ -5,23 +7,20 @@ import VectorTileLayer from "@arcgis/core/layers/VectorTileLayer.js";
 import WMTSLayer from "@arcgis/core/layers/WMTSLayer.js";
 import LabelClass from "@arcgis/core/layers/support/LabelClass.js";
 
-// Popup content imports
+// Other imports
 import TextContent from "@arcgis/core/popup/content/TextContent.js";
-
-// Symbol imports
 import TextSymbol from "@arcgis/core/symbols/TextSymbol.js";
-
-// Support imports
 import ActionButton from "@arcgis/core/support/actions/ActionButton.js";
 
+import "./index.css";
 
 export function formatContent(event: { graphic: { attributes: any; }; }) {
   const attributes = event.graphic.attributes;
   let text = "";
   // Only display the attributes if they exist
-  text += attributes.UseType ? `Use: ${attributes.UseType}` : "";
+  text += attributes.UseType ? `<b>Use: </b>${attributes.UseType}` : "";
   text += attributes.UseDescription ? `; ${attributes.UseDescription}<br>` : "<br>";
-  text += attributes.SitusAddress ? `<br>Address:<br>${attributes.SitusAddress}<br>` : `<br>Located in: ${attributes.TaxRateCity}`;
+  text += attributes.SitusAddress ? `<br><b>Address:</b><br>${attributes.SitusAddress}<br>` : `<br><b>Located in: </b>${attributes.TaxRateCity}`;
   text += attributes.SitusCity ? `${attributes.SitusCity}` : "";
   text += attributes.SitusZIP ? ` ${attributes.SitusZIP.substring(0, 5)}<br>` : "<br>";
   text += `<br><a
@@ -40,12 +39,41 @@ export function formatContent(event: { graphic: { attributes: any; }; }) {
       border-radius: 4px;
       transition: background-color 0.3s ease;
     "
-    >Get Parcel Detail</a>`;
-  let textElement = new TextContent({
-    text: text
-  });
-  return [textElement];
-}
+    onmouseover="this.style.backgroundColor='#e2e6ea';"
+    onmouseout="this.style.backgroundColor='#f8f9fa';"
+    onmousedown="this.style.backgroundColor='#ced4da';"
+    onmouseup="this.style.backgroundColor='#e2e6ea';"
+    >Get Parcel Detail</a>`;  // HTML sanitizers in the Popup prevent event listeners from working
+
+    const textElement = document.createElement('div');
+    textElement.innerHTML = text;
+  
+    const navigateButton = textElement.querySelector('#navigate-button');
+  
+    if (navigateButton) {
+      navigateButton.addEventListener('mouseover', function(this: HTMLAnchorElement) {
+        this.style.backgroundColor = '#e2e6ea';
+      });
+  
+      navigateButton.addEventListener('mouseout', function(this: HTMLAnchorElement) {
+        this.style.backgroundColor = '#f8f9fa';
+      });
+  
+      navigateButton.addEventListener('mousedown', function(this: HTMLAnchorElement) {
+        this.style.backgroundColor = '#ced4da';
+      });
+  
+      navigateButton.addEventListener('mouseup', function(this: HTMLAnchorElement) {
+        this.style.backgroundColor = '#e2e6ea';
+      });
+    }
+  
+    const textContent = new TextContent({
+      text: textElement.innerHTML
+    });
+  
+    return [textContent];
+  }
 
 
 /* Initialization of reference layers */
@@ -161,12 +189,19 @@ export const getParcelDetail = new ActionButton({
   className: "esri-icon-description",
   type: "button"
 });
+// Copies the AIN without hyphens; whether users would want this is uncertain
+export const copyAIN = new ActionButton({
+  title: "Copy AIN",
+  id: "copy-ain",
+  className: "esri-icon-duplicate",
+  type: "button"
+});
 const assessorParcelsMap = new FeatureLayer({
   visible: true,
   title: "Assessor parcels",
   id: "assessor-parcels",
   url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer",
-  popupTemplate: { 
+  popupTemplate: {
     title: "AIN: {APN}",  // The APN is just the AIN with hyphens, e.g. 1234-567-890.
     outFields: ["*"],
     lastEditInfoEnabled: false,
@@ -183,28 +218,31 @@ const assessorParcelsMap = new FeatureLayer({
       },
     ],
     content: formatContent,
-    // actions: [getParcelDetail]
-    },
-    labelingInfo: [
-      new LabelClass({
-        labelExpressionInfo: {
-          expression: "$feature.APN",
-        },
-        labelPlacement: "always-horizontal",
-        symbol: new TextSymbol({
-          color: [112, 61, 189],
-          haloColor: [255, 255, 255],
-          haloSize: 2,
-          font: {
-            family: "Arial",
-            size: 9,
-            weight: "bolder",
-          },
-        }),
-        minScale: 1128.497176344,
-        maxScale: 0,
-      }),
+    actions: [
+      getParcelDetail,  // Comment out this line if not needed; see line 164 in App.tsx
+      // copyAIN,
     ],
+  },
+  labelingInfo: [
+    new LabelClass({
+      labelExpressionInfo: {
+        expression: "$feature.APN",
+      },
+      labelPlacement: "always-horizontal",
+      symbol: new TextSymbol({
+        color: [112, 61, 189],
+        haloColor: [255, 255, 255],
+        haloSize: 2,
+        font: {
+          family: "Arial",
+          size: 9,
+          weight: "bolder",
+        },
+      }),
+      minScale: 1128.497176344,
+      maxScale: 0,
+    }),
+  ],
 });
 
 export const referenceLayersArray = [
@@ -229,8 +267,12 @@ export const referenceLayersArray = [
 
 /* Initialization of base layers */
 
-const aerial2014Map = new MapImageLayer({
-  url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Aerial_2014/MapServer",
+const aerial2014Map = new WMTSLayer({
+  url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
+  activeLayer: {
+    id: "PICT-LARIAC4--NQvK5pJZwy",
+    tileMatrixSetId: "GoogleMapsCompatible",
+  },
   title: "Aerial 2014",
   visible: false
 });
@@ -248,7 +290,7 @@ const aerial2017Map = new WMTSLayer({
 const aerial2020Map = new WMTSLayer({
   url: "https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts",
   activeLayer: {
-    id: "PICT-LARIAC6--hT7yCcKe4I",
+    id: "PICT-LARIAC6--pCqXruF2NL",
     tileMatrixSetId: "GoogleMapsCompatible",
   },
   title: "Aerial 2020",

@@ -4,3 +4,25 @@ body{
 p{
   margin: 0px
 }
+/* Basic button styling */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #000; /* Text color */
+  background-color: #f8f9fa; /* Background color */
+  border: 1px solid #343a40; /* Thin dark gray border */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover state */
+.btn:hover {
+  background-color: #e2e6ea; /* Darker background on hover */
+}
+
+/* Active (clicked) state */
+.btn:active {
+  background-color: #ced4da; /* Even darker background when clicked */
+}

@@ -1,65 +1,72 @@
-// JSX/TSX allows HTML to be included in JS/TS files. No need to tab between files.
+// App.tsx
+
+// Extensions .tsx/.jsx allow HTML to be included in TS/JS files; no need to tab between files
 
 // React imports
-import { forwardRef, useEffect, useRef, useState } from "react";
+import { forwardRef, useEffect, useState, MutableRefObject } from "react";
 
 // Core modules
-import Color from "@arcgis/core/Color.js";
 import Map from "@arcgis/core/Map.js";
-import Extent from "@arcgis/core/geometry/Extent.js";
 import MapView from "@arcgis/core/views/MapView.js";
-// import ActionButton from "@arcgis/core/support/actions/ActionButton.js";
+import Extent from "@arcgis/core/geometry/Extent.js";
+import Color from "@arcgis/core/Color.js";
+import * as reactiveUtils from "@arcgis/core/core/reactiveUtils.js";
 
-// Layers
+// Layers and Symbols
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer.js";
 import GroupLayer from "@arcgis/core/layers/GroupLayer.js";
-
-// Symbols
 import PictureMarkerSymbol from "@arcgis/core/symbols/PictureMarkerSymbol.js";
 
 // Widgets
-import LayerList from "@arcgis/core/widgets/LayerList.js";
+import Expand from "@arcgis/core/widgets/Expand.js";
 import Search from "@arcgis/core/widgets/Search.js";
+import LayerList from "@arcgis/core/widgets/LayerList.js";
 import LayerSearchSource from "@arcgis/core/widgets/Search/LayerSearchSource.js";
 import LocatorSearchSource from "@arcgis/core/widgets/Search/LocatorSearchSource.js";
-import Locate from "@arcgis/core/widgets/Locate.js";
-import Home from "@arcgis/core/widgets/Home.js";
 import Legend from "@arcgis/core/widgets/Legend.js";
 import ScaleBar from "@arcgis/core/widgets/ScaleBar.js";
-import Expand from "@arcgis/core/widgets/Expand.js";
+import Compass from "@arcgis/core/widgets/Compass.js";
+import Locate from "@arcgis/core/widgets/Locate.js";
+import Home from "@arcgis/core/widgets/Home.js";
 
 // Local imports
-import { LODS } from "./constants.ts";
+import { LODS } from "./constants.tsx";
 import {
   formatContent,
-  // getParcelDetail,
+  getParcelDetail,
+  // copyAIN,  // Copies the AIN without hyphens; whether users would want this is uncertain
   baseLayersArray,
-  referenceLayersArray
+  referenceLayersArray,
 } from "./Layers.tsx";
-
 
 type EsriMapProps = {
   url: string;
+  // Boolean variable widgetToggle should be true if the Esri map functions as its
+  // own website, or false if it is treated as an embedded applet/component.
+  widgetToggle: boolean;
+  ref: MutableRefObject<HTMLDivElement | null>;  // The ref type must be explicitly declared
 };
-const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
-  // create a ref to element to be used as the map container
+
+const EsriWithRef = forwardRef<HTMLDivElement, EsriMapProps>(function EsriMap(widgetToggle, ref) {
+  // Creates a reference to the element used as the map container
   const [view, setView] = useState<any>();
 
   const createMapView = (mapRef: any) => {
-    // Perpetual/Persistent foundation map layer
+    // Perpetual/Persistent foundation map layer underlies all base and reference layers
     const map = new Map({
-      basemap: "streets-vector"
+      basemap: "streets-vector",  // Not to be confused with base layers
     });
     const view = new MapView({
       container: mapRef.current,  // Added via ref
       map: map,
       highlightOptions: {
-        color: new Color([255, 48, 111, 1]),  // watermelon-colored highlight
+        // Watermelon-colored highlights appear on parcels when clicked
+        color: new Color([255, 48, 111, 1]),
         haloOpacity: 0.9,
         fillOpacity: 0.2,
       },
       center: [-118.2367, 34.1041],
-      zoom: 11,             
+      zoom: 11,
       constraints: {
         lods: LODS,
       },
@@ -67,10 +74,10 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
         wkid: 102100,
       },
     });
-    
+
     const url = new URL(window.location.href);
     const query = url.searchParams.get("query") || "";
-    
+
     const theExtent = new Extent({
       xmin: -1.3241839395280045E7,
       ymin: 3867766.4935850976,
@@ -80,9 +87,9 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
         wkid: 102100,
       },
     });
-    
+
     const searchExtent = {
-      geometry: theExtent
+      geometry: theExtent,
     };
 
     const searchWidget = new Search({
@@ -101,13 +108,15 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
           }),
           name: "LA County CAMS",
           placeholder: "Find address",
-          suggestionsEnabled: true,  // attribute suggestionsEnables is true by default
+          popupEnabled: true,
+          suggestionsEnabled: true,  // Attribute suggestionsEnables is true by default
         }),
         new LocatorSearchSource({
           url: "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
           singleLineFieldName: "SingleLine",
           name: "Esri World Geocoder",
           placeholder: "Find place",
+          popupEnabled: true,
           outFields: ["Addr_type"],
           resultSymbol: new PictureMarkerSymbol({
             url: "/redpin.png",
@@ -134,7 +143,7 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
             yoffset: 14,
             xoffset: 2,
           }),
-          popupTemplate: { 
+          popupTemplate: {
             title: "AIN: {APN}",  // The APN is basically the AIN with hyphens: 1234-567-890.
             outFields: ["*"],
             lastEditInfoEnabled: false,
@@ -148,15 +157,35 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
               },
               {
                 fieldName: "SitusCity"
-              }
+              },
             ],
             content: formatContent,
-          }  
+            actions: [
+              getParcelDetail,  // Comment out this line if not needed; see line 222 in Layers.tsx
+              // copyAIN,
+            ],
+          },
         }),
       ],
     });
 
-    /* formatting popup box */
+    // Adds effects to the Popup's ActionButtons 
+    reactiveUtils.on(
+      () => view.popup,
+      "trigger-action",
+      (event) => {
+        if (event.action.id === "get-parcel-detail") {
+          const attributes = view.popup.selectedFeature.attributes;
+          window.open("https://portal.assessor.lacounty.gov/parceldetail/" + `${attributes.AIN}`, "_blank");
+        }
+        else if (event.action.id === "copy-ain") {
+          const attributes = view.popup.selectedFeature.attributes;
+          navigator.clipboard.writeText(`${attributes.AIN}`);
+        }
+      }
+    );
+
+    // Positions the PictureMarkerSymbol on any valid search result that is queried
     searchWidget.allSources.on("after-add", ({ item }) => {
       // https://community.esri.com/t5/arcgis-javascript-maps-sdk-questions/how-to-change-the-marker-of-the-search-result/m-p/1088925
       item.resultSymbol = new PictureMarkerSymbol({
@@ -168,6 +197,8 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
       });
     });
 
+    // Appends the query string and the index of the search source to the URL;
+    // refreshing the page returns the user to the original query result
     const updateURLParameters = (query: string, sourceIndex: number) => {
       const url = new URL(window.location.href);
       url.searchParams.set("query", query);
@@ -193,24 +224,27 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
     const initialSourceIndex = parseInt(params.get("sourceIndex") || "0", 10);
     const initialQuery = params.get("query") || "";
     if (initialQuery) {
-      // Set the active source index before performing the search
+      // Sets the active source index before performing the search
       searchWidget.activeSourceIndex = initialSourceIndex;
       searchWidget.search(initialQuery);
     }
 
     const searchExpand = new Expand({
       expandIcon: "search",  // https://developers.arcgis.com/calcite-design-system/icons/
-      collapseIcon: "search",
+      collapseIcon: "chevrons-left",
       expandTooltip: "Show Search Bar",
       collapseTooltip: "Hide Search Bar",
       view: view,
       content: searchWidget,
-      expanded: true,
     });
 
-    if (query) {
-      searchWidget.search(query);
-    }
+    // After the webpage and all map data finish loading, the query in the URL is issued
+    view.when(() => {
+      if (query) {
+        searchWidget.activeSourceIndex = initialSourceIndex;
+        searchWidget.search(query);
+      }
+    });
 
     // Create the Base Layer with sublayers
     const baseLayer = new GroupLayer({
@@ -227,11 +261,10 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
       visibilityMode: "independent"
     });
     map.add(referenceLayers);
-    
+
     const layerList = new LayerList({
       view: view,
     });
-
     const layerListExpand = new Expand({
       expandIcon: "layers",
       collapseIcon: "layers",
@@ -239,13 +272,6 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
       collapseTooltip: "Hide Layer List",
       view: view,
       content: layerList,
-      expanded: true,
-    });
-
-    const scaleBar = new ScaleBar({
-      view: view,
-      style: "ruler",
-      unit: "imperial",
     });
 
     const legend = new Legend({
@@ -259,41 +285,103 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
       collapseTooltip: "Hide Legend",
       view: view,
       content: legend,
-      expanded: true,
+    });
+
+    const compass = new Compass({
+      view: view,
+    });
+
+    const homeWidget = new Home({
+      view: view,
     });
 
     const locateWidget = new Locate({
       view: view,
     });
 
-    const homeWidget = new Home({
-      view: view
+    const scaleBar = new ScaleBar({
+      view: view,
+      style: "ruler",
+      unit: "imperial",
     });
-    
-    view.ui.add(legendExpand, "top-right");
-    view.ui.add(homeWidget, "bottom-right");
-    view.ui.add(locateWidget, "bottom-right");
-    view.ui.add(searchExpand, "bottom-right");
-    view.ui.add(scaleBar, "bottom-left");
+
+    // If variable widgetToggle is true, shows the Search widget, but hides
+    // the New Tab button; the opposite is true if widgetToggle is false
+
     view.ui.add(layerListExpand, "top-left");
-    
+    if (widgetToggle) {
+      view.ui.add(searchExpand, "top-left");
+    }
+    view.ui.add(compass, "top-left");
+    view.ui.add(homeWidget, "top-left");
+    view.ui.add(locateWidget, "top-left");
+    view.ui.add(legendExpand, "top-right");
+    view.ui.add(scaleBar, "bottom-left");
+
+    // Adds a button to the MapView's UI that opens a new window with the current URL
+    if (!widgetToggle) {
+      const openNewWindowButton = document.createElement("button");
+      openNewWindowButton.title = "Open in new tab";  // Tooltip text
+      openNewWindowButton.innerHTML = `<calcite-icon icon="launch" scale="s"></calcite-icon>`;
+      openNewWindowButton.style.padding = "5px 6px";
+      openNewWindowButton.style.border = "1px solid #343a40";
+      openNewWindowButton.style.borderRadius = "4px";
+      openNewWindowButton.style.backgroundColor = "#f8f9fa";
+      openNewWindowButton.style.cursor = "pointer";
+      openNewWindowButton.style.transition = "background-color 0.3s ease";
+      openNewWindowButton.style.display = "flex";
+      openNewWindowButton.style.alignItems = "center";
+      openNewWindowButton.style.justifyContent = "center";
+
+      openNewWindowButton.onmouseover = () => {
+        openNewWindowButton.style.backgroundColor = "#e2e6ea";
+      };
+      openNewWindowButton.onmouseout = () => {
+        openNewWindowButton.style.backgroundColor = "#f8f9fa";
+      };
+      openNewWindowButton.onmousedown = () => {
+        openNewWindowButton.style.backgroundColor = "#ced4da";
+      };
+      openNewWindowButton.onmouseup = () => {
+        openNewWindowButton.style.backgroundColor = "#e2e6ea";
+      };
+      openNewWindowButton.onclick = () => {
+        window.open(window.location.href, "_blank");
+      };
+
+      view.ui.add(openNewWindowButton, "bottom-right");
+    }
+
+    // The LayerList widget and Search widget cannot be expanded
+    // at the same time; otherwise, they overlap
+
+    searchExpand.watch("expanded", (isExpanded) => {
+      if (isExpanded) {
+        layerListExpand.collapse();
+      }
+    });
+    layerListExpand.watch("expanded", (isExpanded) => {
+      if (isExpanded) {
+        searchExpand.collapse();
+      }
+    });
+
     return view;
   };
-  
-  // use a side effect to create the map after react has rendered the DOM
+
+  // Uses a side effect to create the map after React has rendered the DOM
   useEffect(
     () => {
       setView(createMapView(ref));
-
       return () => {
-        // clean up the map view
+        // Cleans up the map view
         if (!!view) {
           view.destroy();
           setView(null);
         }
       };
     },
-    // only re-load the map if the id has changed
+    // Re-loads the map only if the ID has changed
     []
   );
 
@@ -303,26 +391,16 @@ const EsriWithRef = forwardRef(function EsriMap(_props: EsriMapProps, ref) {
     }
   }, [view]);
 
-  if (!ref) return null;
+  if (!ref) {
+    return null;
+  }
 
   return (
+    // Height and width of the map container dynamically change with the window size
     <div style={{ height: "100vh", width: "100vw" }} ref={ref}></div>
+    // TODO: If needed, add a conditional statement such that the map container
+    // is of a fixed size if it functions as an embedded applet/component
   );
 });
 
-export default function App() {
-  // The phrase `export default` makes App() the default export for this package.
-  // This means that App() can be imported using any alias.
-
-  // Users can enter address, place, or AIN to obtain location
-  const esriRef = useRef();
-  return (
-    <>
-      <div>
-        <EsriWithRef
-          url={"https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts"}
-          ref={esriRef}        />
-      </div>
-    </>
-  );
-}
+export default EsriWithRef;
