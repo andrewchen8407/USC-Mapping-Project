@@ -65,7 +65,7 @@ const EsriWithRef = forwardRef<HTMLDivElement, EsriMapProps>(function EsriMap(wi
         haloOpacity: 0.9,
         fillOpacity: 0.2,
       },
-      center: [-118.2367, 34.1041],
+      center: [-118.2367, 34.1041],  // Centers on Los Angeles County, California
       zoom: 11,
       constraints: {
         lods: LODS,
@@ -78,6 +78,7 @@ const EsriWithRef = forwardRef<HTMLDivElement, EsriMapProps>(function EsriMap(wi
     const url = new URL(window.location.href);
     const query = url.searchParams.get("query") || "";
 
+    // Geographic extent defined by latitudinal and longitudinal limits
     const theExtent = new Extent({
       xmin: -1.3241839395280045E7,
       ymin: 3867766.4935850976,
@@ -88,6 +89,7 @@ const EsriWithRef = forwardRef<HTMLDivElement, EsriMapProps>(function EsriMap(wi
       },
     });
 
+    // Previously defined Extent limits the possible search results to addresses therein
     const searchExtent = {
       geometry: theExtent,
     };
@@ -149,20 +151,20 @@ const EsriWithRef = forwardRef<HTMLDivElement, EsriMapProps>(function EsriMap(wi
             lastEditInfoEnabled: false,
             fieldInfos: [
               {
-                fieldName: "AIN"
+                fieldName: "AIN",
               },
               {
                 fieldName: "SitusAddress",
-                label: "address"
+                label: "address",
               },
               {
-                fieldName: "SitusCity"
+                fieldName: "SitusCity",
               },
             ],
             content: formatContent,
             actions: [
-              getParcelDetail,  // Comment out this line if not needed; see line 222 in Layers.tsx
-              // copyAIN,
+              getParcelDetail,  // Comment this line if not needed; see line 222 in Layers.tsx
+              // copyAIN,  // Un-comment this line only if line 37 is un-commented
             ],
           },
         }),
@@ -319,31 +321,38 @@ const EsriWithRef = forwardRef<HTMLDivElement, EsriMapProps>(function EsriMap(wi
     view.ui.add(scaleBar, "bottom-left");
 
     // Adds a button to the MapView's UI that opens a new window with the current URL
-    if (!widgetToggle) {
+    if (
+      // !  // This NOT operator should be un-commented, but for testing purposes, it is left out
+      widgetToggle
+    ) {
       const openNewWindowButton = document.createElement("button");
       openNewWindowButton.title = "Open in new tab";  // Tooltip text
       openNewWindowButton.innerHTML = `<calcite-icon icon="launch" scale="s"></calcite-icon>`;
       openNewWindowButton.style.padding = "5px 6px";
-      openNewWindowButton.style.border = "1px solid #343a40";
+      openNewWindowButton.style.border = "1px solid #ccc";
       openNewWindowButton.style.borderRadius = "4px";
       openNewWindowButton.style.backgroundColor = "#f8f9fa";
       openNewWindowButton.style.cursor = "pointer";
-      openNewWindowButton.style.transition = "background-color 0.3s ease";
+      openNewWindowButton.style.transition = "background-color 0.3s ease, border-color 0.3s ease";
       openNewWindowButton.style.display = "flex";
       openNewWindowButton.style.alignItems = "center";
       openNewWindowButton.style.justifyContent = "center";
-
+      
       openNewWindowButton.onmouseover = () => {
         openNewWindowButton.style.backgroundColor = "#e2e6ea";
+        openNewWindowButton.style.borderColor = "#adadad";
       };
       openNewWindowButton.onmouseout = () => {
         openNewWindowButton.style.backgroundColor = "#f8f9fa";
+        openNewWindowButton.style.borderColor = "#ccc";
       };
       openNewWindowButton.onmousedown = () => {
         openNewWindowButton.style.backgroundColor = "#ced4da";
+        openNewWindowButton.style.borderColor = "#adadad";
       };
       openNewWindowButton.onmouseup = () => {
         openNewWindowButton.style.backgroundColor = "#e2e6ea";
+        openNewWindowButton.style.borderColor = "#adadad";
       };
       openNewWindowButton.onclick = () => {
         window.open(window.location.href, "_blank");

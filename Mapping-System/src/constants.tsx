@@ -1,6 +1,6 @@
 // constants.tsx
 
-import LOD from "@arcgis/core/layers/support/LOD";
+import LOD from "@arcgis/core/layers/support/LOD.js";
 
 // "Levels of detail"
 export const LODS = [

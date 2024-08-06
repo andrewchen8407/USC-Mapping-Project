@@ -8,72 +8,62 @@ import WMTSLayer from "@arcgis/core/layers/WMTSLayer.js";
 import LabelClass from "@arcgis/core/layers/support/LabelClass.js";
 
 // Other imports
-import TextContent from "@arcgis/core/popup/content/TextContent.js";
 import TextSymbol from "@arcgis/core/symbols/TextSymbol.js";
 import ActionButton from "@arcgis/core/support/actions/ActionButton.js";
 
 import "./index.css";
 
-export function formatContent(event: { graphic: { attributes: any; }; }) {
-  const attributes = event.graphic.attributes;
-  let text = "";
-  // Only display the attributes if they exist
-  text += attributes.UseType ? `<b>Use: </b>${attributes.UseType}` : "";
-  text += attributes.UseDescription ? `; ${attributes.UseDescription}<br>` : "<br>";
-  text += attributes.SitusAddress ? `<br><b>Address:</b><br>${attributes.SitusAddress}<br>` : `<br><b>Located in: </b>${attributes.TaxRateCity}`;
-  text += attributes.SitusCity ? `${attributes.SitusCity}` : "";
-  text += attributes.SitusZIP ? ` ${attributes.SitusZIP.substring(0, 5)}<br>` : "<br>";
-  text += `<br><a
-    role="button"
-    button id="navigate-button"
-    class="btn btn-default"
-    href="https://portal.assessor.lacounty.gov/parceldetail/${attributes.AIN}"
-    style="
-      display: inline-block;
-      padding: 5px 10px;
-      text-align: center;
-      text-decoration: none;
-      color: #000;
-      background-color: #f8f9fa;
-      border: 1px solid #343a40;
-      border-radius: 4px;
-      transition: background-color 0.3s ease;
-    "
-    onmouseover="this.style.backgroundColor='#e2e6ea';"
-    onmouseout="this.style.backgroundColor='#f8f9fa';"
-    onmousedown="this.style.backgroundColor='#ced4da';"
-    onmouseup="this.style.backgroundColor='#e2e6ea';"
-    >Get Parcel Detail</a>`;  // HTML sanitizers in the Popup prevent event listeners from working
+export function formatContent() {
+  let content = [
+    {
+      type: "custom",
+      outFields: ["*"],
+      creator(event: { graphic: { attributes: any; }; }) {
+        // Inject CSS styles into the document
+        const style = document.createElement("style");
+        style.innerHTML = `
+          .get-parcel-button {
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 6px 12px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+            border-radius: 4px;
+          }
+          .get-parcel-button:hover {
+            background-color: #e2e6ea;
+            border-color: #adadad;
+          }
+          .get-parcel-button:active {
+            background-color: #ced4da;
+            border-color: #adadad;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+          }
+        `;
+        document.head.appendChild(style);
+        const attributes = event.graphic.attributes;
+        const elem = document.createElement("div");
+        elem.innerHTML = "";
+        elem.innerHTML += attributes.UseType ? `<b>Use: </b>${attributes.UseType}` : "";
+        elem.innerHTML += attributes.UseDescription ? `; ${attributes.UseDescription}<br>` : "<br>";
+        elem.innerHTML += attributes.SitusAddress ? `<br><b>Address:</b><br>${attributes.SitusAddress}<br>` : `<br><b>Located in: </b>${attributes.TaxRateCity}`;
+        elem.innerHTML += attributes.SitusCity ? `${attributes.SitusCity}` : "";
+        elem.innerHTML += attributes.SitusZIP ? ` ${attributes.SitusZIP.substring(0, 5)}<br><br>` : "<br><br>";
+        const btn = document.createElement("button");
+        btn.innerText = "Get Parcel Detail";
+        btn.className = "get-parcel-button";
+        btn.addEventListener("click", () => {
+          window.open(`https://portal.assessor.lacounty.gov/parceldetail/${attributes.AIN}`, '_blank');
+        });
 
-    const textElement = document.createElement('div');
-    textElement.innerHTML = text;
-  
-    const navigateButton = textElement.querySelector('#navigate-button');
-  
-    if (navigateButton) {
-      navigateButton.addEventListener('mouseover', function(this: HTMLAnchorElement) {
-        this.style.backgroundColor = '#e2e6ea';
-      });
-  
-      navigateButton.addEventListener('mouseout', function(this: HTMLAnchorElement) {
-        this.style.backgroundColor = '#f8f9fa';
-      });
-  
-      navigateButton.addEventListener('mousedown', function(this: HTMLAnchorElement) {
-        this.style.backgroundColor = '#ced4da';
-      });
-  
-      navigateButton.addEventListener('mouseup', function(this: HTMLAnchorElement) {
-        this.style.backgroundColor = '#e2e6ea';
-      });
+        elem.appendChild(btn);
+        return elem;
+      }
     }
-  
-    const textContent = new TextContent({
-      text: textElement.innerHTML
-    });
-  
-    return [textContent];
-  }
+  ];
+
+  return content;
+}
 
 
 /* Initialization of reference layers */
@@ -201,28 +191,6 @@ const assessorParcelsMap = new FeatureLayer({
   title: "Assessor parcels",
   id: "assessor-parcels",
   url: "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer",
-  popupTemplate: {
-    title: "AIN: {APN}",  // The APN is just the AIN with hyphens, e.g. 1234-567-890.
-    outFields: ["*"],
-    lastEditInfoEnabled: false,
-    fieldInfos: [
-      {
-        fieldName: "AIN"
-      },
-      {
-        fieldName: "SitusAddress",
-        label: "address"
-      },
-      {
-        fieldName: "SitusCity"
-      },
-    ],
-    content: formatContent,
-    actions: [
-      getParcelDetail,  // Comment out this line if not needed; see line 164 in App.tsx
-      // copyAIN,
-    ],
-  },
   labelingInfo: [
     new LabelClass({
       labelExpressionInfo: {
@@ -243,6 +211,28 @@ const assessorParcelsMap = new FeatureLayer({
       maxScale: 0,
     }),
   ],
+  popupTemplate: {
+    title: "AIN: {APN}",  // The APN is just the AIN with hyphens, e.g. 1234-567-890.
+    outFields: ["*"],
+    lastEditInfoEnabled: false,
+    fieldInfos: [
+      {
+        fieldName: "AIN"
+      },
+      {
+        fieldName: "SitusAddress",
+        label: "address"
+      },
+      {
+        fieldName: "SitusCity"
+      },
+    ],
+    content: formatContent,
+    actions: [
+      getParcelDetail,  // Comment this line if not needed; see line 164 in App.tsx
+      // copyAIN,
+    ],
+  },
 });
 
 export const referenceLayersArray = [
