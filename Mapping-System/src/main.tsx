@@ -1,7 +1,7 @@
-// main.tsx
+/* main.tsx */
 
 // EsriWithRef component imported from App.tsx; this import is paramount
-// since this powers the entire Esri map application!
+// because it powers the entire Esri map program!
 
 import React, { useRef } from "react";
 import ReactDOM from "react-dom/client";
@@ -14,11 +14,14 @@ function App() {
   return (
     <div>
       <EsriWithRef
-        url={"https://svc.pictometry.com/Image/BCC27E3E-766E-CE0B-7D11-AA4760AC43ED/wmts"}
-        // Boolean variable widgetToggle should be true if the Esri map functions as its
-        // own website, or false if it is treated as an embedded applet/component.
-        widgetToggle={true}
         ref={esriRef}
+
+        // Each index signifies a unique use case; see layerArrays.tsx
+        layerSubsetIndex={2}  // e.g. index 2 is for the public portal
+
+        // Boolean variable toggle should be true if the Esri map functions as a
+        // full-width component, or false if it is an embedded applet
+        toggle={true}
       />
     </div>
   );

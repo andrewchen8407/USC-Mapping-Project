@@ -1,0 +1,1 @@
+import{dV as s,eq as e}from"./index-yumUYLd_.js";import{m}from"./queryTopFeatures-8XjtuWc8.js";async function n(o,t,a){const r=s(o);return(await m(r,e.from(t),{...a})).data.objectIds}export{n as executeForTopIds};

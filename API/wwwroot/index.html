@@ -1,81 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    
-    <style>
-      html,
-      body,
-      #my-app {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-      }
-    </style>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
-    <link rel="stylesheet"
-      href="https://js.arcgis.com/4.29/esri/themes/light/main.css"/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
-    <script type="module" crossorigin src="/assets/index-qKE4VY30.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-SVb3vyBa.css">
-  </head>
-  <body>
-    <div id="root"></div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Esri map TypeScript component for Los Angeles County's Office of the Assessor" />
+  <title>LA Assessor's Map</title>
 
-    <!-- <div id="my-app">
-      <bsg-assessor-map :options="options" :layers="layers" :locators="locators" :search="search" :zoom="zoom" :map-url="mapUrl"></bsg-assessor-map>
-  </div> -->
-  <script type="text/javascript" src="node_modules/vue/dist/vue.min.js"></script>
-  <script type="text/javascript" src="node_modules/bsgassessormap/dist/vendors.min.js"></script>
-  <!-- Loading the following script will automatically register the bsgassessormap as Vue plugin -->
-  <script type="text/javascript" src="node_modules/bsgassessormap/dist/index.min.js"></script>
-  <!-- Make sure the fonts are available under assets/ folder from this page-->
-  <!-- <script>
-      var vm = new Vue({
-          el: '#my-app',
-          data: function () {
-              return {
-                  options: {
-                      hasSearch: true,
-                      showSearch: true,
-                      hasGpsLocator: true,
-                      hasScalebar: true,
-                      hasLegend: true,
-                      hasNewWindowPopup: true,
-                      showLayers: true,
-                  },
-                  layers: [{
-                      "id": "street",
-                      "label": "Street",
-                      "category": "Base",
-                      "url": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_StreetMap/MapServer",
-                      "type": "Tile",
-                      "layerOptions": {},
-                      "default": true
-                  }],
-                  search: '1234 street ave', 
-                  locators: [{
-                      "featureLayer": "https://cache.gis.lacounty.gov/cache/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0",
-                      "searchFields": ["AIN"],
-                      "exactMatch": true,
-                      "outFields": ["*"],
-                      "placeholder": "AIN",
-                      "enableSuggestions": false,
-                  }], // default []
-                  mapUrl: '/', // default window.location
-                  zoom: 11, // default 11
-              };
-          },
-      });
-  </script> -->
+  <style>
+    html,
+    body,
+    #my-app {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+  </style>
 
-  </body>
+  <link rel="preload" href="https://js.arcgis.com/4.29/esri/themes/light/main.css" as="style" />
+  <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="all" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/light/main.css" media="all" />
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" crossorigin src="/assets/index-idTqwGoN.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-XQT8DJa7.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
 </html>
