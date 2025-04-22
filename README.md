@@ -1,8 +1,9 @@
 # USC-Mapping-Project
 LA Assessor Portal: Build modular Esri/ArcGIS API independent of Assessor endpoints with focus on maintainability and reliability.
 
-### Website
-[mappingproject.azurewebsites.net](https://mappingproject.azurewebsites.net/)
+### Websites on which the Esri map component is hosted
+[portal.assessor.lacounty.gov/parceldetail/5161004909](https://portal.assessor.lacounty.gov/parceldetail/5161004909/)
+[portal.assessor.lacounty.gov/mapsearch?lat=34.05654903&lng=-118.24629675](https://portal.assessor.lacounty.gov/mapsearch?lat=34.05654903&lng=-118.24629675/)
 
 ### Work Flow
 We maintain a main branch and a develop branch. The main branch will contain functioning, tested code.  
